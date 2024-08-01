@@ -1,6 +1,6 @@
 # Automating the Generation of a Functional Semantic Types Ontology Codebase for NAACL 2024
 
-Contains Codebase for generating FSTO Graphs for Kaggle and Harvard Data Universes. [Paper link](https://drive.google.com/file/d/1EkL9XG1BXvversuTPBxQ92XVYCd7q8LU/view) 
+Contains Codebase for generating FSTO Graphs for Kaggle and Harvard Data Universes. [Paper link](https://aclanthology.org/2024.naacl-industry.21/) 
 
 ## Installation
 Install requirements from `requirements.txt`
