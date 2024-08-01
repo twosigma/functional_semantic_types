@@ -1,4 +1,6 @@
-# Automating the Generation of a Functional Semantic Types Ontology Codebase for NAACL 2024
+# [Automating the Generation of a Functional Semantic Types Ontology with Foundational Models Codebase](https://aclanthology.org/2024.naacl-industry.21) (Konan et al., NAACL 2024)
+
+
 
 Contains Codebase for generating FSTO Graphs for Kaggle and Harvard Data Universes. [Paper link](https://aclanthology.org/2024.naacl-industry.21/) 
 
