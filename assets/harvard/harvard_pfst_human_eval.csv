@@ -1,0 +1,308 @@
+id,col_name,col_node,ds_node,human_prediction,gpt_prediction,scope,unique_id
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr2insulin,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr2insulin,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:insulinuse,IS FST,IS FST,Just Right,0
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,gender,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:gender,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:gender,IS FST,IS FST,Just Right,1
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,a1cqi2yr,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1cqi2yr,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1clevel,IS FST,IS FST,Just Right,2
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yrsschooling,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yrsschooling,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yearsinschool,IS FST,IS FST,Just Right,3
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,language,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:language,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:language,IS FST,IS FST,Just Right,4
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr2homevisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr2homevisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:homevisits,IS FST,IS FST,Just Right,5
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,a1cqi1yr,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1cqi1yr,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1clevel,IS FST,IS FST,Just Right,6
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,lastbeforeqi,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:lastbeforeqi,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1clevel,IS FST,IS FST,Just Right,7
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,resultlastweight,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:resultlastweight,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:weight,IS FST,IS FST,Just Right,8
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr1homevisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr1homevisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:homevisits,IS FST,IS FST,Just Right,9
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr1clinicvisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr1clinicvisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:clinicvisits,IS FST,IS FST,Just Right,10
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,dropout,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:dropout,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:dropoutstatus,IS FST,IS FST,Just Right,11
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr1insulin,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr1insulin,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:insulinuse,IS FST,IS FST,Just Right,12
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yrdiagnosisdiabetes,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yrdiagnosisdiabetes,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yearofdiagnosis,IS FST,IS FST,Just Right,13
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,resultlastheight,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:resultlastheight,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:height,IS FST,IS FST,Just Right,14
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,baselinehomevisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:baselinehomevisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:homevisits,IS FST,IS FST,Just Right,15
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,initiala1c,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:initiala1c,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:a1clevel,IS FST,IS FST,Just Right,16
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,baselineinsulin,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:baselineinsulin,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:insulinuse,IS FST,IS FST,Just Right,17
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,id,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:id,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:patientidentifier,NOT FST,IS FST,,18
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,yr2clinicvisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:yr2clinicvisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:clinicvisits,IS FST,IS FST,Just Right,19
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,baselineclinicvisits,COL:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:baselineclinicvisits,TYPE:medicinehealthandlifesciences:diabetesqualityimprovementinguatemalareplicationdataset:clinicvisits,IS FST,IS FST,Just Right,20
+medicinehealthandlifesciences/diabetesqualityimprovementinguatemalareplicationdataset,datefirstencounter,,,IS FST,NOT FST,,21
+medicinehealthandlifesciences/bancoddsoplosone070720,ideacaosui,COL:medicinehealthandlifesciences:bancoddsoplosone070720:ideacaosui,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,22
+medicinehealthandlifesciences/bancoddsoplosone070720,peso,COL:medicinehealthandlifesciences:bancoddsoplosone070720:peso,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:weight,IS FST,IS FST,Totally Incorrect,23
+medicinehealthandlifesciences/bancoddsoplosone070720,testhiv,COL:medicinehealthandlifesciences:bancoddsoplosone070720:testhiv,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,IS FST,IS FST,Too Broad,24
+medicinehealthandlifesciences/bancoddsoplosone070720,aprovafam,COL:medicinehealthandlifesciences:bancoddsoplosone070720:aprovafam,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,25
+medicinehealthandlifesciences/bancoddsoplosone070720,ident2,COL:medicinehealthandlifesciences:bancoddsoplosone070720:ident2,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,IS FST,IS FST,Too Broad,26
+medicinehealthandlifesciences/bancoddsoplosone070720,audit2,COL:medicinehealthandlifesciences:bancoddsoplosone070720:audit2,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,27
+medicinehealthandlifesciences/bancoddsoplosone070720,contoumae,COL:medicinehealthandlifesciences:bancoddsoplosone070720:contoumae,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,28
+medicinehealthandlifesciences/bancoddsoplosone070720,contoupai,COL:medicinehealthandlifesciences:bancoddsoplosone070720:contoupai,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,29
+medicinehealthandlifesciences/bancoddsoplosone070720,sitconj,COL:medicinehealthandlifesciences:bancoddsoplosone070720:sitconj,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,30
+medicinehealthandlifesciences/bancoddsoplosone070720,lcadisc419,COL:medicinehealthandlifesciences:bancoddsoplosone070720:lcadisc419,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,31
+medicinehealthandlifesciences/bancoddsoplosone070720,viofis,COL:medicinehealthandlifesciences:bancoddsoplosone070720:viofis,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,32
+medicinehealthandlifesciences/bancoddsoplosone070720,nse3,COL:medicinehealthandlifesciences:bancoddsoplosone070720:nse3,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:socioeconomiclevel,NOT FST,IS FST,Too Broad,33
+medicinehealthandlifesciences/bancoddsoplosone070720,cidade,COL:medicinehealthandlifesciences:bancoddsoplosone070720:cidade,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:cityname,IS FST,IS FST,,34
+medicinehealthandlifesciences/bancoddsoplosone070720,corcat3,COL:medicinehealthandlifesciences:bancoddsoplosone070720:corcat3,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,35
+medicinehealthandlifesciences/bancoddsoplosone070720,relig,COL:medicinehealthandlifesciences:bancoddsoplosone070720:relig,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,IS FST,IS FST,Too Broad,36
+medicinehealthandlifesciences/bancoddsoplosone070720,idade2,COL:medicinehealthandlifesciences:bancoddsoplosone070720:idade2,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:agegroup,IS FST,IS FST,Just Right,37
+medicinehealthandlifesciences/bancoddsoplosone070720,viosex,COL:medicinehealthandlifesciences:bancoddsoplosone070720:viosex,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:binaryresponse,IS FST,IS FST,Too Broad,38
+medicinehealthandlifesciences/bancoddsoplosone070720,onglgbt,COL:medicinehealthandlifesciences:bancoddsoplosone070720:onglgbt,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,IS FST,IS FST,Too Broad,39
+medicinehealthandlifesciences/bancoddsoplosone070720,escolcat2,COL:medicinehealthandlifesciences:bancoddsoplosone070720:escolcat2,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,IS FST,IS FST,Too Broad,40
+medicinehealthandlifesciences/bancoddsoplosone070720,usodroga,COL:medicinehealthandlifesciences:bancoddsoplosone070720:usodroga,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:responsetype,NOT FST,IS FST,Too Broad,41
+medicinehealthandlifesciences/bancoddsoplosone070720,idseq,COL:medicinehealthandlifesciences:bancoddsoplosone070720:idseq,TYPE:medicinehealthandlifesciences:bancoddsoplosone070720:idsequence,NOT FST,IS FST,,42
+engineering/summarydata,imacm²,COL:engineering:summarydata:imacm²,TYPE:engineering:summarydata:current,IS FST,IS FST,Too Broad,43
+engineering/summarydata,ia,COL:engineering:summarydata:ia,TYPE:engineering:summarydata:current,IS FST,IS FST,Just Right,44
+engineering/summarydata,tcellc,COL:engineering:summarydata:tcellc,TYPE:engineering:summarydata:temperature,IS FST,IS FST,Too Broad,45
+engineering/summarydata,flowcathodelmin,COL:engineering:summarydata:flowcathodelmin,TYPE:engineering:summarydata:flowrate,IS FST,IS FST,Too Broad,46
+engineering/summarydata,pwatts,COL:engineering:summarydata:pwatts,TYPE:engineering:summarydata:power,IS FST,IS FST,Too Broad,47
+engineering/summarydata,timesec,COL:engineering:summarydata:timesec,TYPE:engineering:summarydata:timeinseconds,NOT FST,IS FST,Just Right,48
+engineering/summarydata,pmwcm²,COL:engineering:summarydata:pmwcm²,TYPE:engineering:summarydata:power,IS FST,IS FST,Too Broad,49
+engineering/summarydata,voltagev,COL:engineering:summarydata:voltagev,TYPE:engineering:summarydata:voltage,IS FST,IS FST,Too Broad,50
+engineering/summarydata,flowanodelmin,COL:engineering:summarydata:flowanodelmin,TYPE:engineering:summarydata:flowrate,IS FST,IS FST,Too Broad,51
+engineering/summarydata,tanodec,COL:engineering:summarydata:tanodec,TYPE:engineering:summarydata:temperature,IS FST,IS FST,Too Broad,52
+engineering/summarydata,tcathodec,COL:engineering:summarydata:tcathodec,TYPE:engineering:summarydata:temperature,IS FST,IS FST,Too Specific,53
+engineering/summarydata,a,,,NOT FST,NOT FST,Just Right,54
+computerandinformationscience/electiondebatemerge,truthiness,COL:computerandinformationscience:electiondebatemerge:truthiness,TYPE:computerandinformationscience:electiondebatemerge:truthiness,IS FST,IS FST,Just Right,55
+computerandinformationscience/electiondebatemerge,participationcode,COL:computerandinformationscience:electiondebatemerge:participationcode,TYPE:computerandinformationscience:electiondebatemerge:participationcode,IS FST,IS FST,Just Right,56
+computerandinformationscience/electiondebatemerge,topic,COL:computerandinformationscience:electiondebatemerge:topic,TYPE:computerandinformationscience:electiondebatemerge:topic,IS FST,IS FST,Just Right,57
+computerandinformationscience/electiondebatemerge,emotionaltone,COL:computerandinformationscience:electiondebatemerge:emotionaltone,TYPE:computerandinformationscience:electiondebatemerge:emotionaltone,IS FST,IS FST,Just Right,58
+computerandinformationscience/electiondebatemerge,sentiment,COL:computerandinformationscience:electiondebatemerge:sentiment,TYPE:computerandinformationscience:electiondebatemerge:sentiment,IS FST,IS FST,Just Right,59
+computerandinformationscience/electiondebatemerge,totalcount,COL:computerandinformationscience:electiondebatemerge:totalcount,TYPE:computerandinformationscience:electiondebatemerge:totalcount,IS FST,IS FST,Just Right,60
+computerandinformationscience/electiondebatemerge,bothuman,COL:computerandinformationscience:electiondebatemerge:bothuman,TYPE:computerandinformationscience:electiondebatemerge:bothuman,IS FST,IS FST,Just Right,61
+computerandinformationscience/electiondebatemerge,displayuniversalbotscores,COL:computerandinformationscience:electiondebatemerge:displayuniversalbotscores,TYPE:computerandinformationscience:electiondebatemerge:displayuniversalbotscores,IS FST,IS FST,Just Right,62
+computerandinformationscience/electiondebatemerge,authentic,COL:computerandinformationscience:electiondebatemerge:authentic,TYPE:computerandinformationscience:electiondebatemerge:authentic,IS FST,IS FST,Just Right,63
+socialsciences/eqil,medianyearsinschool,COL:socialsciences:eqil:medianyearsinschool,TYPE:socialsciences:eqil:yearsinschool,IS FST,IS FST,Just Right,64
+socialsciences/eqil,estincome,COL:socialsciences:eqil:estincome,TYPE:socialsciences:eqil:income,IS FST,IS FST,Just Right,65
+socialsciences/eqil,presenceofchildren,COL:socialsciences:eqil:presenceofchildren,TYPE:socialsciences:eqil:presenceofchildren,IS FST,IS FST,Just Right,66
+socialsciences/eqil,agecat,COL:socialsciences:eqil:agecat,TYPE:socialsciences:eqil:agecat,IS FST,IS FST,Just Right,67
+socialsciences/eqil,inccat,COL:socialsciences:eqil:inccat,TYPE:socialsciences:eqil:inccat,IS FST,IS FST,Just Right,68
+socialsciences/eqil,married,COL:socialsciences:eqil:married,TYPE:socialsciences:eqil:married,IS FST,IS FST,Just Right,69
+socialsciences/eqil,gender,COL:socialsciences:eqil:gender,TYPE:socialsciences:eqil:gender,IS FST,IS FST,Just Right,70
+socialsciences/eqil,caseid,COL:socialsciences:eqil:caseid,TYPE:socialsciences:eqil:identifier,IS FST,IS FST,Just Right,71
+socialsciences/eqil,homeowner,COL:socialsciences:eqil:homeowner,TYPE:socialsciences:eqil:homeowner,IS FST,IS FST,Just Right,72
+socialsciences/eqil,caseidfirst,COL:socialsciences:eqil:caseidfirst,TYPE:socialsciences:eqil:identifier,IS FST,IS FST,Just Right,73
+socialsciences/eqil,age,COL:socialsciences:eqil:age,TYPE:socialsciences:eqil:age,IS FST,IS FST,Just Right,74
+socialsciences/eqil,group,COL:socialsciences:eqil:group,TYPE:socialsciences:eqil:group,NOT FST,IS FST,Just Right,75
+socialsciences/eqil,volrace,COL:socialsciences:eqil:volrace,TYPE:socialsciences:eqil:volrace,IS FST,IS FST,Just Right,76
+socialsciences/eqil,raceofcaller,COL:socialsciences:eqil:raceofcaller,TYPE:socialsciences:eqil:raceofcaller,IS FST,IS FST,Just Right,77
+socialsciences/eqil,educ,COL:socialsciences:eqil:educ,TYPE:socialsciences:eqil:educ,IS FST,IS FST,Just Right,78
+socialsciences/eqil,supportyn,COL:socialsciences:eqil:supportyn,TYPE:socialsciences:eqil:supportyn,NOT FST,IS FST,Just Right,79
+socialsciences/blindspotsreplication,pricoalitionvoteshare,COL:socialsciences:blindspotsreplication:pricoalitionvoteshare,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,80
+socialsciences/blindspotsreplication,pristrike,COL:socialsciences:blindspotsreplication:pristrike,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,81
+socialsciences/blindspotsreplication,nonpristrike,COL:socialsciences:blindspotsreplication:nonpristrike,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,82
+socialsciences/blindspotsreplication,homicide,COL:socialsciences:blindspotsreplication:homicide,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Too Broad,83
+socialsciences/blindspotsreplication,code,COL:socialsciences:blindspotsreplication:code,TYPE:socialsciences:blindspotsreplication:areacode,NOT FST,IS FST,Just Right,84
+socialsciences/blindspotsreplication,border,COL:socialsciences:blindspotsreplication:border,TYPE:socialsciences:blindspotsreplication:borderpresence,IS FST,IS FST,Too Broad,85
+socialsciences/blindspotsreplication,year,COL:socialsciences:blindspotsreplication:year,TYPE:socialsciences:blindspotsreplication:year,IS FST,IS FST,Just Right,86
+socialsciences/blindspotsreplication,strikethreats,COL:socialsciences:blindspotsreplication:strikethreats,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Too Broad,87
+socialsciences/blindspotsreplication,nonprithreat,COL:socialsciences:blindspotsreplication:nonprithreat,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,88
+socialsciences/blindspotsreplication,population,COL:socialsciences:blindspotsreplication:population,TYPE:socialsciences:blindspotsreplication:populationcount,IS FST,IS FST,Just Right,89
+socialsciences/blindspotsreplication,unemployment,COL:socialsciences:blindspotsreplication:unemployment,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Just Right,90
+socialsciences/blindspotsreplication,municipality,COL:socialsciences:blindspotsreplication:municipality,TYPE:socialsciences:blindspotsreplication:geographiclocation,IS FST,IS FST,Just Right,91
+socialsciences/blindspotsreplication,state,COL:socialsciences:blindspotsreplication:state,TYPE:socialsciences:blindspotsreplication:geographiclocation,IS FST,IS FST,Just Right,92
+socialsciences/blindspotsreplication,gini,COL:socialsciences:blindspotsreplication:gini,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Just Right,93
+socialsciences/blindspotsreplication,strikes,COL:socialsciences:blindspotsreplication:strikes,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Too Broad,94
+socialsciences/blindspotsreplication,maquilaemploy,COL:socialsciences:blindspotsreplication:maquilaemploy,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Too Specific,95
+socialsciences/blindspotsreplication,prithreat,COL:socialsciences:blindspotsreplication:prithreat,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,96
+socialsciences/blindspotsreplication,illiteracy,COL:socialsciences:blindspotsreplication:illiteracy,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Too Broad,97
+socialsciences/blindspotsreplication,privoteshare,COL:socialsciences:blindspotsreplication:privoteshare,TYPE:socialsciences:blindspotsreplication:politicalindicator,IS FST,IS FST,Too Broad,98
+socialsciences/blindspotsreplication,budgettotal,COL:socialsciences:blindspotsreplication:budgettotal,TYPE:socialsciences:blindspotsreplication:governmentbudget,IS FST,IS FST,Just Right,99
+socialsciences/blindspotsreplication,prosperahouseholds,COL:socialsciences:blindspotsreplication:prosperahouseholds,TYPE:socialsciences:blindspotsreplication:economicindicator,IS FST,IS FST,Just Right,100
+socialsciences/cfc,q9recoded,COL:socialsciences:cfc:q9recoded,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,,101
+socialsciences/cfc,q11recoded,COL:socialsciences:cfc:q11recoded,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,102
+socialsciences/cfc,q3recoded,COL:socialsciences:cfc:q3recoded,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,103
+socialsciences/cfc,q4,COL:socialsciences:cfc:q4,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,104
+socialsciences/cfc,gender,COL:socialsciences:cfc:gender,TYPE:socialsciences:cfc:gender,IS FST,IS FST,Just Right,105
+socialsciences/cfc,q10recoded,COL:socialsciences:cfc:q10recoded,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,106
+socialsciences/cfc,q5,COL:socialsciences:cfc:q5,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,107
+socialsciences/cfc,total,COL:socialsciences:cfc:total,TYPE:socialsciences:cfc:total,NOT FST,IS FST,,108
+socialsciences/cfc,q12,COL:socialsciences:cfc:q12,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,109
+socialsciences/cfc,q11,COL:socialsciences:cfc:q11,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,110
+socialsciences/cfc,q7,COL:socialsciences:cfc:q7,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,111
+socialsciences/cfc,q13,COL:socialsciences:cfc:q13,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,112
+socialsciences/cfc,q8,COL:socialsciences:cfc:q8,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,113
+socialsciences/cfc,q10,COL:socialsciences:cfc:q10,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,,114
+socialsciences/cfc,q9,COL:socialsciences:cfc:q9,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,115
+socialsciences/cfc,q6,COL:socialsciences:cfc:q6,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,116
+socialsciences/cfc,q2,COL:socialsciences:cfc:q2,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,117
+socialsciences/cfc,q12recoded,COL:socialsciences:cfc:q12recoded,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,118
+socialsciences/cfc,q3,COL:socialsciences:cfc:q3,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,119
+socialsciences/cfc,q14,COL:socialsciences:cfc:q14,TYPE:socialsciences:cfc:likertscale,IS FST,IS FST,Just Right,120
+socialsciences/cfc,q4recoded,COL:socialsciences:cfc:q4recoded,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,121
+socialsciences/cfc,age,COL:socialsciences:cfc:age,TYPE:socialsciences:cfc:age,IS FST,IS FST,Just Right,122
+socialsciences/cfc,nationality,COL:socialsciences:cfc:nationality,TYPE:socialsciences:cfc:nationality,IS FST,IS FST,Just Right,123
+socialsciences/cfc,q5recoded,COL:socialsciences:cfc:q5recoded,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,124
+socialsciences/cfc,q1,COL:socialsciences:cfc:q1,TYPE:socialsciences:cfc:likertscale,NOT FST,IS FST,Just Right,125
+socialsciences/chpostalcodes,stateabbreviation,COL:socialsciences:chpostalcodes:stateabbreviation,TYPE:socialsciences:chpostalcodes:cantonabbreviation,IS FST,IS FST,Just Right,126
+socialsciences/chpostalcodes,city,COL:socialsciences:chpostalcodes:city,TYPE:socialsciences:chpostalcodes:cityname,IS FST,IS FST,Just Right,127
+socialsciences/chpostalcodes,county,COL:socialsciences:chpostalcodes:county,TYPE:socialsciences:chpostalcodes:countyname,IS FST,IS FST,Just Right,128
+socialsciences/chpostalcodes,placename,COL:socialsciences:chpostalcodes:placename,TYPE:socialsciences:chpostalcodes:placename,IS FST,IS FST,Just Right,129
+socialsciences/chpostalcodes,latitude,COL:socialsciences:chpostalcodes:latitude,TYPE:socialsciences:chpostalcodes:latitude,IS FST,IS FST,Too Broad,130
+socialsciences/chpostalcodes,state,COL:socialsciences:chpostalcodes:state,TYPE:socialsciences:chpostalcodes:cantonname,IS FST,IS FST,Just Right,131
+socialsciences/chpostalcodes,postalcode,COL:socialsciences:chpostalcodes:postalcode,TYPE:socialsciences:chpostalcodes:swisspostalcode,IS FST,IS FST,Just Right,132
+socialsciences/chpostalcodes,longitude,COL:socialsciences:chpostalcodes:longitude,TYPE:socialsciences:chpostalcodes:longitude,IS FST,IS FST,Too Broad,133
+socialsciences/cfcdatampunpublished,education,COL:socialsciences:cfcdatampunpublished:education,TYPE:socialsciences:cfcdatampunpublished:educationlevel,IS FST,IS FST,Just Right,134
+socialsciences/cfcdatampunpublished,nationality,COL:socialsciences:cfcdatampunpublished:nationality,TYPE:socialsciences:cfcdatampunpublished:nationality,IS FST,IS FST,Just Right,135
+socialsciences/cfcdatampunpublished,cfc2,COL:socialsciences:cfcdatampunpublished:cfc2,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,136
+socialsciences/cfcdatampunpublished,cfc6,COL:socialsciences:cfcdatampunpublished:cfc6,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,137
+socialsciences/cfcdatampunpublished,cfc7,COL:socialsciences:cfcdatampunpublished:cfc7,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,138
+socialsciences/cfcdatampunpublished,cfc3r,COL:socialsciences:cfcdatampunpublished:cfc3r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,139
+socialsciences/cfcdatampunpublished,cfc4r,COL:socialsciences:cfcdatampunpublished:cfc4r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,140
+socialsciences/cfcdatampunpublished,cfc8,COL:socialsciences:cfcdatampunpublished:cfc8,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,141
+socialsciences/cfcdatampunpublished,age,COL:socialsciences:cfcdatampunpublished:age,TYPE:socialsciences:cfcdatampunpublished:age,IS FST,IS FST,Just Right,142
+socialsciences/cfcdatampunpublished,gender,COL:socialsciences:cfcdatampunpublished:gender,TYPE:socialsciences:cfcdatampunpublished:gender,IS FST,IS FST,Just Right,143
+socialsciences/cfcdatampunpublished,cfc12r,COL:socialsciences:cfcdatampunpublished:cfc12r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,144
+socialsciences/cfcdatampunpublished,cfc11r,COL:socialsciences:cfcdatampunpublished:cfc11r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,145
+socialsciences/cfcdatampunpublished,cfc5r,COL:socialsciences:cfcdatampunpublished:cfc5r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,146
+socialsciences/cfcdatampunpublished,cfc1,COL:socialsciences:cfcdatampunpublished:cfc1,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,147
+socialsciences/cfcdatampunpublished,cfc10r,COL:socialsciences:cfcdatampunpublished:cfc10r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,148
+socialsciences/cfcdatampunpublished,cfc9r,COL:socialsciences:cfcdatampunpublished:cfc9r,TYPE:socialsciences:cfcdatampunpublished:likertscale,IS FST,IS FST,Just Right,149
+socialsciences/ms2705,demp,COL:socialsciences:ms2705:demp,TYPE:socialsciences:ms2705:democracyfactor,IS FST,IS FST,Just Right,150
+socialsciences/ms2705,inflation,COL:socialsciences:ms2705:inflation,TYPE:socialsciences:ms2705:inflationrate,IS FST,IS FST,Just Right,151
+socialsciences/ms2705,t,COL:socialsciences:ms2705:t,TYPE:socialsciences:ms2705:year,IS FST,IS FST,Just Right,152
+socialsciences/ms2705,trade,COL:socialsciences:ms2705:trade,TYPE:socialsciences:ms2705:tradeindex,IS FST,IS FST,Just Right,153
+socialsciences/ms2705,country,COL:socialsciences:ms2705:country,TYPE:socialsciences:ms2705:countryname,IS FST,IS FST,Just Right,154
+socialsciences/ms2705,unemp,COL:socialsciences:ms2705:unemp,TYPE:socialsciences:ms2705:unemploymentrate,IS FST,IS FST,Just Right,155
+socialsciences/ms2705,demf,COL:socialsciences:ms2705:demf,TYPE:socialsciences:ms2705:democracyfactor,IS FST,IS FST,Just Right,156
+socialsciences/ms2705,growth,COL:socialsciences:ms2705:growth,TYPE:socialsciences:ms2705:growthrate,IS FST,IS FST,Just Right,157
+socialsciences/ms2705,debt,COL:socialsciences:ms2705:debt,TYPE:socialsciences:ms2705:debtindex,IS FST,IS FST,Just Right,158
+socialsciences/ms2705,budget,COL:socialsciences:ms2705:budget,TYPE:socialsciences:ms2705:budgetvalue,IS FST,IS FST,Just Right,159
+socialsciences/ms2705,i,,,NOT FST,NOT FST,,160
+agriculturalsciences/coolroommonitor,sitename,COL:agriculturalsciences:coolroommonitor:sitename,TYPE:agriculturalsciences:coolroommonitor:sitesinglevalue,IS FST,IS FST,Just Right,161
+agriculturalsciences/coolroommonitor,voltagev,COL:agriculturalsciences:coolroommonitor:voltagev,TYPE:agriculturalsciences:coolroommonitor:voltage,IS FST,IS FST,Just Right,162
+agriculturalsciences/coolroommonitor,datetimeutc,COL:agriculturalsciences:coolroommonitor:datetimeutc,TYPE:agriculturalsciences:coolroommonitor:datetimeutc,IS FST,IS FST,Just Right,163
+agriculturalsciences/coolroommonitor,recno,COL:agriculturalsciences:coolroommonitor:recno,TYPE:agriculturalsciences:coolroommonitor:recordnumber,NOT FST,IS FST,Just Right,164
+agriculturalsciences/coolroommonitor,toutc1,COL:agriculturalsciences:coolroommonitor:toutc1,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,165
+agriculturalsciences/coolroommonitor,tin4c,COL:agriculturalsciences:coolroommonitor:tin4c,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,166
+agriculturalsciences/coolroommonitor,currenta,COL:agriculturalsciences:coolroommonitor:currenta,TYPE:agriculturalsciences:coolroommonitor:current,IS FST,IS FST,Just Right,167
+agriculturalsciences/coolroommonitor,tin3c,COL:agriculturalsciences:coolroommonitor:tin3c,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,168
+agriculturalsciences/coolroommonitor,rhoutpercent,COL:agriculturalsciences:coolroommonitor:rhoutpercent,TYPE:agriculturalsciences:coolroommonitor:humidity,IS FST,IS FST,Just Right,169
+agriculturalsciences/coolroommonitor,tin1c,COL:agriculturalsciences:coolroommonitor:tin1c,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,170
+agriculturalsciences/coolroommonitor,toutc,COL:agriculturalsciences:coolroommonitor:toutc,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,171
+agriculturalsciences/coolroommonitor,tin2c,COL:agriculturalsciences:coolroommonitor:tin2c,TYPE:agriculturalsciences:coolroommonitor:temperature,IS FST,IS FST,Too Broad,172
+agriculturalsciences/coolroommonitor,rhinpercent,COL:agriculturalsciences:coolroommonitor:rhinpercent,TYPE:agriculturalsciences:coolroommonitor:humidity,IS FST,IS FST,Too Broad,173
+businessandmanagement/maindatafile,sent1,COL:businessandmanagement:maindatafile:sent1,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,174
+businessandmanagement/maindatafile,emp1,COL:businessandmanagement:maindatafile:emp1,TYPE:businessandmanagement:maindatafile:sentiment,NOT FST,IS FST,Just Right,175
+businessandmanagement/maindatafile,pss1,COL:businessandmanagement:maindatafile:pss1,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,176
+businessandmanagement/maindatafile,pss3,COL:businessandmanagement:maindatafile:pss3,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,177
+businessandmanagement/maindatafile,sent3,COL:businessandmanagement:maindatafile:sent3,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,178
+businessandmanagement/maindatafile,emp3,COL:businessandmanagement:maindatafile:emp3,TYPE:businessandmanagement:maindatafile:sentiment,NOT FST,IS FST,Just Right,179
+businessandmanagement/maindatafile,groups,COL:businessandmanagement:maindatafile:groups,TYPE:businessandmanagement:maindatafile:groups,NOT FST,IS FST,,180
+businessandmanagement/maindatafile,seff2,COL:businessandmanagement:maindatafile:seff2,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,181
+businessandmanagement/maindatafile,seff1,COL:businessandmanagement:maindatafile:seff1,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,182
+businessandmanagement/maindatafile,sent2,COL:businessandmanagement:maindatafile:sent2,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,183
+businessandmanagement/maindatafile,netw2,COL:businessandmanagement:maindatafile:netw2,TYPE:businessandmanagement:maindatafile:network,IS FST,IS FST,Just Right,184
+businessandmanagement/maindatafile,sumsent,COL:businessandmanagement:maindatafile:sumsent,TYPE:businessandmanagement:maindatafile:sumscore,IS FST,IS FST,Just Right,185
+businessandmanagement/maindatafile,netw4,COL:businessandmanagement:maindatafile:netw4,TYPE:businessandmanagement:maindatafile:network,IS FST,IS FST,Just Right,186
+businessandmanagement/maindatafile,pss2,COL:businessandmanagement:maindatafile:pss2,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,187
+businessandmanagement/maindatafile,emp2,COL:businessandmanagement:maindatafile:emp2,TYPE:businessandmanagement:maindatafile:sentiment,NOT FST,IS FST,Just Right,188
+businessandmanagement/maindatafile,seff3,COL:businessandmanagement:maindatafile:seff3,TYPE:businessandmanagement:maindatafile:sentiment,NOT FST,IS FST,Just Right,189
+businessandmanagement/maindatafile,netw3,COL:businessandmanagement:maindatafile:netw3,TYPE:businessandmanagement:maindatafile:network,IS FST,IS FST,Just Right,190
+businessandmanagement/maindatafile,sumpss,COL:businessandmanagement:maindatafile:sumpss,TYPE:businessandmanagement:maindatafile:sumscore,IS FST,IS FST,Just Right,191
+businessandmanagement/maindatafile,mo4,COL:businessandmanagement:maindatafile:mo4,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,192
+businessandmanagement/maindatafile,mo3,COL:businessandmanagement:maindatafile:mo3,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,193
+businessandmanagement/maindatafile,sumnetw,COL:businessandmanagement:maindatafile:sumnetw,TYPE:businessandmanagement:maindatafile:sumscore,IS FST,IS FST,Just Right,194
+businessandmanagement/maindatafile,netw1,COL:businessandmanagement:maindatafile:netw1,TYPE:businessandmanagement:maindatafile:network,IS FST,IS FST,Just Right,195
+businessandmanagement/maindatafile,netw5,COL:businessandmanagement:maindatafile:netw5,TYPE:businessandmanagement:maindatafile:network,IS FST,IS FST,Just Right,196
+businessandmanagement/maindatafile,mo2,COL:businessandmanagement:maindatafile:mo2,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,197
+businessandmanagement/maindatafile,sumemp,COL:businessandmanagement:maindatafile:sumemp,TYPE:businessandmanagement:maindatafile:sumscore,IS FST,IS FST,Just Right,198
+businessandmanagement/maindatafile,mo1,COL:businessandmanagement:maindatafile:mo1,TYPE:businessandmanagement:maindatafile:sentiment,IS FST,IS FST,Just Right,199
+businessandmanagement/maindatafile,summo,COL:businessandmanagement:maindatafile:summo,TYPE:businessandmanagement:maindatafile:sumscore,IS FST,IS FST,Just Right,200
+artsandhumanities/367casesforcompetencyscale,lt6,COL:artsandhumanities:367casesforcompetencyscale:lt6,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,IS FST,IS FST,Just Right,201
+artsandhumanities/367casesforcompetencyscale,uop4,COL:artsandhumanities:367casesforcompetencyscale:uop4,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,202
+artsandhumanities/367casesforcompetencyscale,uop1,COL:artsandhumanities:367casesforcompetencyscale:uop1,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,203
+artsandhumanities/367casesforcompetencyscale,uop3,COL:artsandhumanities:367casesforcompetencyscale:uop3,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,204
+artsandhumanities/367casesforcompetencyscale,lt2,COL:artsandhumanities:367casesforcompetencyscale:lt2,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,IS FST,IS FST,Just Right,205
+artsandhumanities/367casesforcompetencyscale,selfo4,COL:artsandhumanities:367casesforcompetencyscale:selfo4,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,206
+artsandhumanities/367casesforcompetencyscale,lt1,COL:artsandhumanities:367casesforcompetencyscale:lt1,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,IS FST,IS FST,Just Right,207
+artsandhumanities/367casesforcompetencyscale,selfo2,COL:artsandhumanities:367casesforcompetencyscale:selfo2,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,208
+artsandhumanities/367casesforcompetencyscale,selfo3,COL:artsandhumanities:367casesforcompetencyscale:selfo3,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,NOT FST,IS FST,,209
+artsandhumanities/367casesforcompetencyscale,lt5,COL:artsandhumanities:367casesforcompetencyscale:lt5,TYPE:artsandhumanities:367casesforcompetencyscale:likertscale,IS FST,IS FST,Just Right,210
+earthandenvironmentalsciences/bpideam,precipitacion,COL:earthandenvironmentalsciences:bpideam:precipitacion,TYPE:earthandenvironmentalsciences:bpideam:precipitation,IS FST,IS FST,Just Right,211
+earthandenvironmentalsciences/bpideam,temperatura,COL:earthandenvironmentalsciences:bpideam:temperatura,TYPE:earthandenvironmentalsciences:bpideam:temperature,IS FST,IS FST,Just Right,212
+earthandenvironmentalsciences/bpideam,departamento,COL:earthandenvironmentalsciences:bpideam:departamento,TYPE:earthandenvironmentalsciences:bpideam:department,IS FST,IS FST,Just Right,213
+earthandenvironmentalsciences/bpideam,mes,COL:earthandenvironmentalsciences:bpideam:mes,TYPE:earthandenvironmentalsciences:bpideam:month,IS FST,IS FST,Just Right,214
+earthandenvironmentalsciences/bpideam,humedadrelativa,COL:earthandenvironmentalsciences:bpideam:humedadrelativa,TYPE:earthandenvironmentalsciences:bpideam:relativehumidity,IS FST,IS FST,Just Right,215
+earthandenvironmentalsciences/bpideam,municipio,COL:earthandenvironmentalsciences:bpideam:municipio,TYPE:earthandenvironmentalsciences:bpideam:municipality,IS FST,IS FST,Just Right,216
+earthandenvironmentalsciences/bpideam,anio,COL:earthandenvironmentalsciences:bpideam:anio,TYPE:earthandenvironmentalsciences:bpideam:year,IS FST,IS FST,Just Right,217
+earthandenvironmentalsciences/bpideam,radiacion,COL:earthandenvironmentalsciences:bpideam:radiacion,TYPE:earthandenvironmentalsciences:bpideam:radiation,IS FST,IS FST,Just Right,218
+earthandenvironmentalsciences/deearthquakesircs,origintime,COL:earthandenvironmentalsciences:deearthquakesircs:origintime,TYPE:earthandenvironmentalsciences:deearthquakesircs:earthquaketime,IS FST,IS FST,,219
+earthandenvironmentalsciences/deearthquakesircs,mag,COL:earthandenvironmentalsciences:deearthquakesircs:mag,TYPE:earthandenvironmentalsciences:deearthquakesircs:magnitude,NOT FST,IS FST,,220
+earthandenvironmentalsciences/deearthquakesircs,depthkm,COL:earthandenvironmentalsciences:deearthquakesircs:depthkm,TYPE:earthandenvironmentalsciences:deearthquakesircs:depth,IS FST,IS FST,,221
+earthandenvironmentalsciences/deearthquakesircs,azimuthalgapdeg,COL:earthandenvironmentalsciences:deearthquakesircs:azimuthalgapdeg,TYPE:earthandenvironmentalsciences:deearthquakesircs:azimuthalgap,NOT FST,IS FST,Too Broad,222
+earthandenvironmentalsciences/deearthquakesircs,download,COL:earthandenvironmentalsciences:deearthquakesircs:download,TYPE:earthandenvironmentalsciences:deearthquakesircs:downloadfile,NOT FST,IS FST,,223
+earthandenvironmentalsciences/deearthquakesircs,rmssec,COL:earthandenvironmentalsciences:deearthquakesircs:rmssec,TYPE:earthandenvironmentalsciences:deearthquakesircs:rms,NOT FST,IS FST,,224
+earthandenvironmentalsciences/deearthquakesircs,magtype,COL:earthandenvironmentalsciences:deearthquakesircs:magtype,TYPE:earthandenvironmentalsciences:deearthquakesircs:magnitudetype,NOT FST,IS FST,,225
+earthandenvironmentalsciences/deearthquakesircs,lat,COL:earthandenvironmentalsciences:deearthquakesircs:lat,TYPE:earthandenvironmentalsciences:deearthquakesircs:latitude,IS FST,IS FST,Just Right,226
+earthandenvironmentalsciences/deearthquakesircs,long,COL:earthandenvironmentalsciences:deearthquakesircs:long,TYPE:earthandenvironmentalsciences:deearthquakesircs:longitude,IS FST,IS FST,Just Right,227
+earthandenvironmentalsciences/deearthquakesircs,no,COL:earthandenvironmentalsciences:deearthquakesircs:no,TYPE:earthandenvironmentalsciences:deearthquakesircs:earthquakeidentifier,NOT FST,IS FST,,228
+earthandenvironmentalsciences/2020observationmasterlist,englishname,COL:earthandenvironmentalsciences:2020observationmasterlist:englishname,TYPE:earthandenvironmentalsciences:2020observationmasterlist:englishbirdname,IS FST,IS FST,Just Right,229
+earthandenvironmentalsciences/2020observationmasterlist,weather,COL:earthandenvironmentalsciences:2020observationmasterlist:weather,TYPE:earthandenvironmentalsciences:2020observationmasterlist:weathercondition,IS FST,IS FST,Just Right,230
+earthandenvironmentalsciences/2020observationmasterlist,location,COL:earthandenvironmentalsciences:2020observationmasterlist:location,TYPE:earthandenvironmentalsciences:2020observationmasterlist:location,IS FST,IS FST,Just Right,231
+earthandenvironmentalsciences/2020observationmasterlist,scientificname,COL:earthandenvironmentalsciences:2020observationmasterlist:scientificname,TYPE:earthandenvironmentalsciences:2020observationmasterlist:scientificbirdname,IS FST,IS FST,Just Right,232
+earthandenvironmentalsciences/2020observationmasterlist,spottedtimes,COL:earthandenvironmentalsciences:2020observationmasterlist:spottedtimes,TYPE:earthandenvironmentalsciences:2020observationmasterlist:birdspottedtimes,IS FST,IS FST,Just Right,233
+earthandenvironmentalsciences/2020observationmasterlist,date,COL:earthandenvironmentalsciences:2020observationmasterlist:date,TYPE:earthandenvironmentalsciences:2020observationmasterlist:monitoringdate,IS FST,IS FST,Just Right,234
+earthandenvironmentalsciences/2020observationmasterlist,time,COL:earthandenvironmentalsciences:2020observationmasterlist:time,TYPE:earthandenvironmentalsciences:2020observationmasterlist:monitoringtime,IS FST,IS FST,Just Right,235
+earthandenvironmentalsciences/2020observationmasterlist,observer,,,IS FST,NOT FST,,236
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,county,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:county,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:county,IS FST,IS FST,Just Right,237
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,state,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:state,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:state,IS FST,IS FST,Just Right,238
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,geoid10,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:geoid10,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:geoidentifier,IS FST,IS FST,Just Right,239
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,landdevelopability2001,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:landdevelopability2001,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:landdevelopability,IS FST,IS FST,Just Right,240
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,landdevelopability2011,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:landdevelopability2011,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:landdevelopability,IS FST,IS FST,Just Right,241
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,countyns10,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:countyns10,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:countyidentifier,IS FST,IS FST,Just Right,242
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,countyfp10,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:countyfp10,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:countycode,IS FST,IS FST,Just Right,243
+earthandenvironmentalsciences/landdevelopability20012011harvarddataverse,statefp10,COL:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:statefp10,TYPE:earthandenvironmentalsciences:landdevelopability20012011harvarddataverse:statecode,IS FST,IS FST,Just Right,244
+astronomyandastrophysics/herschelbatphotometry1,plwflag,COL:astronomyandastrophysics:herschelbatphotometry1:plwflag,TYPE:astronomyandastrophysics:herschelbatphotometry1:qualityflag,IS FST,IS FST,Just Right,245
+astronomyandastrophysics/herschelbatphotometry1,pswflag,COL:astronomyandastrophysics:herschelbatphotometry1:pswflag,TYPE:astronomyandastrophysics:herschelbatphotometry1:qualityflag,IS FST,IS FST,Just Right,246
+astronomyandastrophysics/herschelbatphotometry1,plw,COL:astronomyandastrophysics:herschelbatphotometry1:plw,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensity,IS FST,IS FST,Just Right,247
+astronomyandastrophysics/herschelbatphotometry1,pacs160err,COL:astronomyandastrophysics:herschelbatphotometry1:pacs160err,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensityerr,IS FST,IS FST,Just Right,248
+astronomyandastrophysics/herschelbatphotometry1,pmwerr,COL:astronomyandastrophysics:herschelbatphotometry1:pmwerr,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensityerr,IS FST,IS FST,Just Right,249
+astronomyandastrophysics/herschelbatphotometry1,pacs70,COL:astronomyandastrophysics:herschelbatphotometry1:pacs70,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensity,IS FST,IS FST,Too Broad,250
+astronomyandastrophysics/herschelbatphotometry1,name,COL:astronomyandastrophysics:herschelbatphotometry1:name,TYPE:astronomyandastrophysics:herschelbatphotometry1:objectname,IS FST,IS FST,Too Broad,251
+astronomyandastrophysics/herschelbatphotometry1,pswerr,COL:astronomyandastrophysics:herschelbatphotometry1:pswerr,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensityerr,IS FST,IS FST,Just Right,252
+astronomyandastrophysics/herschelbatphotometry1,pmwflag,COL:astronomyandastrophysics:herschelbatphotometry1:pmwflag,TYPE:astronomyandastrophysics:herschelbatphotometry1:qualityflag,IS FST,IS FST,Just Right,253
+astronomyandastrophysics/herschelbatphotometry1,pacs160,COL:astronomyandastrophysics:herschelbatphotometry1:pacs160,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensity,IS FST,IS FST,Just Right,254
+astronomyandastrophysics/herschelbatphotometry1,psw,COL:astronomyandastrophysics:herschelbatphotometry1:psw,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensity,IS FST,IS FST,Just Right,255
+astronomyandastrophysics/herschelbatphotometry1,pmw,COL:astronomyandastrophysics:herschelbatphotometry1:pmw,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensity,IS FST,IS FST,Just Right,256
+astronomyandastrophysics/herschelbatphotometry1,plwerr,COL:astronomyandastrophysics:herschelbatphotometry1:plwerr,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensityerr,IS FST,IS FST,Just Right,257
+astronomyandastrophysics/herschelbatphotometry1,pacs70err,COL:astronomyandastrophysics:herschelbatphotometry1:pacs70err,TYPE:astronomyandastrophysics:herschelbatphotometry1:fluxdensityerr,IS FST,IS FST,Too Broad,258
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,lowerwkmatch,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:lowerwkmatch,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,259
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,wkover,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:wkover,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,260
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,topwkmatch,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:topwkmatch,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,261
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,strikerate,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:strikerate,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Totally Incorrect,262
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,middlewkmatch,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:middlewkmatch,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,263
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,country,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:country,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketcountry,IS FST,IS FST,Just Right,264
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,dbr,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:dbr,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,265
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,runsconceded,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:runsconceded,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,266
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,economy,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:economy,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Totally Incorrect,267
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,top,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:top,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,268
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,matches,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:matches,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Too Broad,269
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,balls,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:balls,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,270
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,wkmatch,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:wkmatch,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,271
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,overs,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:overs,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Too Broad,272
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,ovmtch,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:ovmtch,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,273
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,wickets,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:wickets,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Too Broad,274
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,type,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:type,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketrole,IS FST,IS FST,Slightly Wrong,275
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,name,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:name,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketername,IS FST,IS FST,Just Right,276
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,middle,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:middle,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,277
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,average,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:average,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,278
+mathematicalsciences/datasetforreplicationreleasevelocitiesandbowlerperformanceincricket,lower,COL:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:lower,TYPE:mathematicalsciences:datasetforreplicationreleasevelocitiesandbowlerperformanceincricket:cricketstats,IS FST,IS FST,Just Right,279
+law/ukdata,dec00,COL:law:ukdata:dec00,TYPE:law:ukdata:decisionyear,NOT FST,IS FST,,280
+law/ukdata,dec10,COL:law:ukdata:dec10,TYPE:law:ukdata:decisionyear,NOT FST,IS FST,,281
+law/ukdata,dec70,COL:law:ukdata:dec70,TYPE:law:ukdata:decisionyear,NOT FST,IS FST,,282
+law/ukdata,dec90,COL:law:ukdata:dec90,TYPE:law:ukdata:decisionyear,NOT FST,IS FST,,283
+law/ukdata,age,COL:law:ukdata:age,TYPE:law:ukdata:age,IS FST,IS FST,Just Right,284
+law/ukdata,salience,COL:law:ukdata:salience,TYPE:law:ukdata:salience,IS FST,IS FST,Just Right,285
+law/ukdata,dec80,COL:law:ukdata:dec80,TYPE:law:ukdata:decisionyear,NOT FST,IS FST,,286
+law/ukdata,samplenum,COL:law:ukdata:samplenum,TYPE:law:ukdata:samplenumber,NOT FST,IS FST,,287
+law/ukdata,year,COL:law:ukdata:year,TYPE:law:ukdata:year,IS FST,IS FST,Just Right,288
+law/ukdata,yearcite,,,IS FST,NOT FST,,289
+law/ukdata,agesquared,,,NOT FST,NOT FST,,290
+law/ukdata,scvitdistlag,,,IS FST,NOT FST,,291
+law/ukdata,cavitdistlag,,,IS FST,NOT FST,,292
+law/ukdata,split,,,NOT FST,NOT FST,,293
+law/ukdata,scposcount,,,NOT FST,NOT FST,,294
+law/ukdata,caposcount,,,NOT FST,NOT FST,,295
+law/ukdata,pglength,,,NOT FST,NOT FST,,296
+law/ukdata,reversal1,,,NOT FST,NOT FST,,297
+law/ukdata,canegcount,,,NOT FST,NOT FST,,298
+law/ukdata,citemed,,,NOT FST,NOT FST,,299
+law/ukdata,ideodist,,,NOT FST,NOT FST,,300
+law/ukdata,criminal,,,NOT FST,NOT FST,,301
+law/ukdata,absdist,,,NOT FST,NOT FST,,302
+law/ukdata,ipoint,,,NOT FST,NOT FST,,303
+law/ukdata,cacountnoneg,,,NOT FST,NOT FST,,304
+law/ukdata,ipcpmcoa,,,NOT FST,NOT FST,,305
+law/ukdata,absmedideo,,,NOT FST,NOT FST,,306

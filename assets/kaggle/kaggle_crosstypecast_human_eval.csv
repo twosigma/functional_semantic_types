@@ -1,0 +1,1281 @@
+src,dst,edge_type,human_prediction,gpt_prediction,relation_type,identical,reasoning,logic,unique_id
+age,TYPE:_:_:healthstatus,direct,UNCASTABLE,UNCASTABLE,,False,False,False,0
+age,TYPE:_:_:playerage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,True,False,False,1
+age,TYPE:_:_:heartrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,2
+age,TYPE:_:_:year,direct,UNCASTABLE,CASTABLE,,False,False,False,3
+age,TYPE:_:_:deaths,direct,UNCASTABLE,UNCASTABLE,,False,False,False,4
+age,TYPE:_:_:patientage,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,5
+age,TYPE:_:_:customerage,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,6
+age,TYPE:_:_:ageofshooter,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,7
+age,TYPE:_:_:number,direct,UNCASTABLE,CASTABLE,,False,False,False,8
+age,TYPE:_:_:agegroup,direct,UNCASTABLE,UNCASTABLE,,False,False,False,9
+age,TYPE:_:_:ageinmonths,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,10
+age,TYPE:_:_:personidentifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,11
+age,TYPE:_:_:population,direct,UNCASTABLE,UNCASTABLE,,False,False,False,12
+age,TYPE:_:_:suicidescount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,13
+age,TYPE:_:_:victims,direct,UNCASTABLE,UNCASTABLE,,False,False,False,14
+age,TYPE:_:_:victimage,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,15
+age,TYPE:_:_:birthyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,16
+age,TYPE:_:_:deathcount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,17
+age,TYPE:_:_:studentage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,18
+age,TYPE:_:_:perpetratorage,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,19
+age,TYPE:_:_:healthstatus,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,20
+age,TYPE:_:_:playerage,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,True,False,False,21
+age,TYPE:_:_:heartrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,22
+age,TYPE:_:_:year,indirect,UNCASTABLE,CASTABLE,,False,False,False,23
+age,TYPE:_:_:deaths,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,24
+age,TYPE:_:_:patientage,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,25
+age,TYPE:_:_:customerage,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,26
+age,TYPE:_:_:ageofshooter,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,27
+age,TYPE:_:_:number,indirect,UNCASTABLE,CASTABLE,,False,False,False,28
+age,TYPE:_:_:agegroup,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,29
+age,TYPE:_:_:ageinmonths,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,30
+age,TYPE:_:_:personidentifier,indirect,UNCASTABLE,CASTABLE,,False,False,False,31
+age,TYPE:_:_:population,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,32
+age,TYPE:_:_:suicidescount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,33
+age,TYPE:_:_:victims,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,34
+age,TYPE:_:_:victimage,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,35
+age,TYPE:_:_:birthyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,36
+age,TYPE:_:_:deathcount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,37
+age,TYPE:_:_:studentage,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,38
+age,TYPE:_:_:perpetratorage,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,39
+date,TYPE:_:_:datestamp,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,40
+date,TYPE:_:_:birthdate,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,41
+date,TYPE:_:_:gamedate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,True,False,False,42
+date,TYPE:_:_:lastupdated,direct,UNCASTABLE,UNCASTABLE,,False,False,False,43
+date,TYPE:_:_:tradingday,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,44
+date,TYPE:_:_:recipedate,direct,UNCASTABLE,CASTABLE,,False,False,False,45
+date,TYPE:_:_:saledate,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,46
+date,TYPE:_:_:datecolumn,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,47
+date,TYPE:_:_:datetimetype,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,48
+date,TYPE:_:_:datetimeclass,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,49
+date,TYPE:_:_:tradingdate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,50
+date,TYPE:_:_:datelocal,direct,UNCASTABLE,CASTABLE,,False,False,False,51
+date,TYPE:_:_:cryptocurrencydate,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,52
+date,TYPE:_:_:datetimestamp,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,53
+date,TYPE:_:_:datetimesemantictype,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,54
+date,TYPE:_:_:released,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,55
+date,TYPE:_:_:datestring,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,56
+date,TYPE:_:_:datetimeiso,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,57
+date,TYPE:_:_:dateegg,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,58
+date,TYPE:_:_:timestamp,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,59
+date,TYPE:_:_:datestamp,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,60
+date,TYPE:_:_:birthdate,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,61
+date,TYPE:_:_:gamedate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,True,False,False,62
+date,TYPE:_:_:lastupdated,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,63
+date,TYPE:_:_:tradingday,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,64
+date,TYPE:_:_:recipedate,indirect,UNCASTABLE,CASTABLE,,False,False,False,65
+date,TYPE:_:_:saledate,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,66
+date,TYPE:_:_:datecolumn,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,67
+date,TYPE:_:_:datetimetype,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,68
+date,TYPE:_:_:datetimeclass,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,69
+date,TYPE:_:_:tradingdate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,70
+date,TYPE:_:_:datelocal,indirect,UNCASTABLE,CASTABLE,,False,False,False,71
+date,TYPE:_:_:cryptocurrencydate,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,72
+date,TYPE:_:_:datetimestamp,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,73
+date,TYPE:_:_:datetimesemantictype,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,74
+date,TYPE:_:_:released,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,75
+date,TYPE:_:_:datestring,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,76
+date,TYPE:_:_:datetimeiso,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,77
+date,TYPE:_:_:dateegg,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,78
+date,TYPE:_:_:timestamp,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,79
+year,TYPE:_:_:yearrange,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,80
+year,TYPE:_:_:carmanufacturingyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,81
+year,TYPE:_:_:decade,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,True,False,False,82
+year,TYPE:_:_:videogameyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,83
+year,TYPE:_:_:primarykey,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,84
+year,TYPE:_:_:yearofshooting,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,85
+year,TYPE:_:_:month,direct,UNCASTABLE,UNCASTABLE,,False,False,False,86
+year,TYPE:_:_:ageinmonths,direct,UNCASTABLE,UNCASTABLE,,False,False,False,87
+year,TYPE:_:_:tradeyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,88
+year,TYPE:_:_:movieyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,89
+year,TYPE:_:_:yearofmanufacture,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,90
+year,TYPE:_:_:totalworkingyears,direct,UNCASTABLE,UNCASTABLE,,False,False,False,91
+year,TYPE:_:_:bookpublicationyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,92
+year,TYPE:_:_:dayofyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,93
+year,TYPE:_:_:caryear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,94
+year,TYPE:_:_:yearbuilt,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,95
+year,TYPE:_:_:releasedyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,96
+year,TYPE:_:_:birthyear,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,97
+year,TYPE:_:_:manufactureyear,direct,UNCASTABLE,CASTABLE,,True,True,True,98
+year,TYPE:_:_:showreleaseyear,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,99
+year,TYPE:_:_:yearrange,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,100
+year,TYPE:_:_:carmanufacturingyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,101
+year,TYPE:_:_:decade,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,True,False,False,102
+year,TYPE:_:_:videogameyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,103
+year,TYPE:_:_:primarykey,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,104
+year,TYPE:_:_:yearofshooting,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,105
+year,TYPE:_:_:month,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,106
+year,TYPE:_:_:ageinmonths,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,107
+year,TYPE:_:_:tradeyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,108
+year,TYPE:_:_:movieyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,109
+year,TYPE:_:_:yearofmanufacture,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,110
+year,TYPE:_:_:totalworkingyears,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,111
+year,TYPE:_:_:bookpublicationyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,112
+year,TYPE:_:_:dayofyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,113
+year,TYPE:_:_:caryear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,114
+year,TYPE:_:_:yearbuilt,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,115
+year,TYPE:_:_:releasedyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,116
+year,TYPE:_:_:birthyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,117
+year,TYPE:_:_:manufactureyear,indirect,UNCASTABLE,CASTABLE,,True,True,True,118
+year,TYPE:_:_:showreleaseyear,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,119
+countryname,TYPE:_:_:nationality,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,120
+countryname,TYPE:_:_:country,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,121
+countryname,TYPE:_:_:globalregion,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,122
+countryname,TYPE:_:_:nationalityname,direct,CASTABLE,CASTABLE,Bidirectional,False,False,False,123
+countryname,TYPE:_:_:city,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,124
+countryname,TYPE:_:_:countries,direct,CASTABLE,CASTABLE,Bidirectional,True,False,False,125
+countryname,TYPE:_:_:indianregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,126
+countryname,TYPE:_:_:countryabbreviation,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,127
+countryname,TYPE:_:_:region,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,128
+countryname,TYPE:_:_:disease,direct,UNCASTABLE,UNCASTABLE,,False,False,False,129
+countryname,TYPE:_:_:companycountry,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,130
+countryname,TYPE:_:_:countrycode,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,131
+countryname,TYPE:_:_:cityname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,132
+countryname,TYPE:_:_:location,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,133
+countryname,TYPE:_:_:geographicregion,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,134
+countryname,TYPE:_:_:worldregion,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,135
+countryname,TYPE:_:_:continentname,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,136
+countryname,TYPE:_:_:countryidentifier,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,137
+countryname,TYPE:_:_:countryregion,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,138
+countryname,TYPE:_:_:regionname,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,139
+countryname,TYPE:_:_:nationality,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,140
+countryname,TYPE:_:_:country,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,141
+countryname,TYPE:_:_:globalregion,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,142
+countryname,TYPE:_:_:nationalityname,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,143
+countryname,TYPE:_:_:city,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,144
+countryname,TYPE:_:_:countries,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,145
+countryname,TYPE:_:_:indianregion,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,146
+countryname,TYPE:_:_:countryabbreviation,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,147
+countryname,TYPE:_:_:region,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,148
+countryname,TYPE:_:_:disease,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,149
+countryname,TYPE:_:_:companycountry,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,150
+countryname,TYPE:_:_:countrycode,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,151
+countryname,TYPE:_:_:cityname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,152
+countryname,TYPE:_:_:location,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,153
+countryname,TYPE:_:_:geographicregion,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,154
+countryname,TYPE:_:_:worldregion,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,155
+countryname,TYPE:_:_:continentname,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,156
+countryname,TYPE:_:_:countryidentifier,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,157
+countryname,TYPE:_:_:countryregion,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,158
+countryname,TYPE:_:_:regionname,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,159
+longitude,TYPE:_:_:lat,direct,UNCASTABLE,UNCASTABLE,,False,False,False,160
+longitude,TYPE:_:_:points,direct,UNCASTABLE,UNCASTABLE,,False,False,False,161
+longitude,TYPE:_:_:geocode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,162
+longitude,TYPE:_:_:distanceinmeters,direct,UNCASTABLE,UNCASTABLE,,False,False,False,163
+longitude,TYPE:_:_:gpscoordinate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,164
+longitude,TYPE:_:_:freightvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,165
+longitude,TYPE:_:_:geocoordinates,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,166
+longitude,TYPE:_:_:geocoordinate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,167
+longitude,TYPE:_:_:latitudedecimal,direct,UNCASTABLE,UNCASTABLE,,False,False,False,168
+longitude,TYPE:_:_:geographiccoordinate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,169
+longitude,TYPE:_:_:latitude,direct,UNCASTABLE,UNCASTABLE,,False,False,False,170
+longitude,TYPE:_:_:longitudedecimal,direct,CASTABLE,CASTABLE,Bidirectional,True,False,False,171
+longitude,TYPE:_:_:coordinate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,172
+longitude,TYPE:_:_:long,direct,CASTABLE,CASTABLE,Bidirectional,True,False,False,173
+longitude,TYPE:_:_:shooterlocation,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,174
+longitude,TYPE:_:_:rent,direct,UNCASTABLE,UNCASTABLE,,False,False,False,175
+longitude,TYPE:_:_:altitude,direct,UNCASTABLE,UNCASTABLE,,False,False,False,176
+longitude,TYPE:_:_:latitudelongitude,direct,UNCASTABLE,CASTABLE,,False,False,False,177
+longitude,TYPE:_:_:temperature,direct,UNCASTABLE,UNCASTABLE,,False,False,False,178
+longitude,TYPE:_:_:elevation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,179
+longitude,TYPE:_:_:lat,indirect,UNCASTABLE,CASTABLE,,False,False,False,180
+longitude,TYPE:_:_:points,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,181
+longitude,TYPE:_:_:geocode,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,182
+longitude,TYPE:_:_:distanceinmeters,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,183
+longitude,TYPE:_:_:gpscoordinate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,184
+longitude,TYPE:_:_:freightvalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,185
+longitude,TYPE:_:_:geocoordinates,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,186
+longitude,TYPE:_:_:geocoordinate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,187
+longitude,TYPE:_:_:latitudedecimal,indirect,UNCASTABLE,CASTABLE,,False,False,False,188
+longitude,TYPE:_:_:geographiccoordinate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,189
+longitude,TYPE:_:_:latitude,indirect,UNCASTABLE,CASTABLE,,False,False,False,190
+longitude,TYPE:_:_:longitudedecimal,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,191
+longitude,TYPE:_:_:coordinate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,192
+longitude,TYPE:_:_:long,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,193
+longitude,TYPE:_:_:shooterlocation,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,194
+longitude,TYPE:_:_:rent,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,195
+longitude,TYPE:_:_:altitude,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,196
+longitude,TYPE:_:_:latitudelongitude,indirect,UNCASTABLE,CASTABLE,,False,False,False,197
+longitude,TYPE:_:_:temperature,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,198
+longitude,TYPE:_:_:elevation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,199
+state,TYPE:_:_:usstate,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,200
+state,TYPE:_:_:charactername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,201
+state,TYPE:_:_:statename,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,202
+state,TYPE:_:_:citystate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,203
+state,TYPE:_:_:provincestate,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,204
+state,TYPE:_:_:stateus,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,205
+state,TYPE:_:_:provincename,direct,UNCASTABLE,CASTABLE,,False,True,False,206
+state,TYPE:_:_:authorname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,207
+state,TYPE:_:_:universityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,208
+state,TYPE:_:_:usstatename,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,209
+state,TYPE:_:_:personname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,210
+state,TYPE:_:_:stateprovince,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,211
+state,TYPE:_:_:province,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,212
+state,TYPE:_:_:animalname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,213
+state,TYPE:_:_:surname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,214
+state,TYPE:_:_:cityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,215
+state,TYPE:_:_:location,direct,UNCASTABLE,UNCASTABLE,,False,False,False,216
+state,TYPE:_:_:indianstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,217
+state,TYPE:_:_:districtname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,218
+state,TYPE:_:_:stateabbreviation,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,219
+state,TYPE:_:_:usstate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,220
+state,TYPE:_:_:charactername,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,221
+state,TYPE:_:_:statename,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,222
+state,TYPE:_:_:citystate,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,223
+state,TYPE:_:_:provincestate,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,224
+state,TYPE:_:_:stateus,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,225
+state,TYPE:_:_:provincename,indirect,UNCASTABLE,CASTABLE,,False,True,False,226
+state,TYPE:_:_:authorname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,227
+state,TYPE:_:_:universityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,228
+state,TYPE:_:_:usstatename,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,229
+state,TYPE:_:_:personname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,230
+state,TYPE:_:_:stateprovince,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,231
+state,TYPE:_:_:province,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,232
+state,TYPE:_:_:animalname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,233
+state,TYPE:_:_:surname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,234
+state,TYPE:_:_:cityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,235
+state,TYPE:_:_:location,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,236
+state,TYPE:_:_:indianstate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,237
+state,TYPE:_:_:districtname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,238
+state,TYPE:_:_:stateabbreviation,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,239
+city,TYPE:_:_:nationalityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,240
+city,TYPE:_:_:tag,direct,UNCASTABLE,UNCASTABLE,,False,False,False,241
+city,TYPE:_:_:citystate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,242
+city,TYPE:_:_:address,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,243
+city,TYPE:_:_:name,direct,UNCASTABLE,UNCASTABLE,,False,False,False,244
+city,TYPE:_:_:neighborhoodname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,245
+city,TYPE:_:_:locationname,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,246
+city,TYPE:_:_:companyname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,247
+city,TYPE:_:_:countryname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,248
+city,TYPE:_:_:district,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,249
+city,TYPE:_:_:venuename,direct,UNCASTABLE,UNCASTABLE,,False,False,False,250
+city,TYPE:_:_:constructionname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,251
+city,TYPE:_:_:carname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,252
+city,TYPE:_:_:citycode,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,253
+city,TYPE:_:_:movietitle,direct,UNCASTABLE,UNCASTABLE,,False,False,False,254
+city,TYPE:_:_:cityname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,255
+city,TYPE:_:_:location,direct,UNCASTABLE,UNCASTABLE,,False,False,False,256
+city,TYPE:_:_:continentname,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,257
+city,TYPE:_:_:state,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,258
+city,TYPE:_:_:schoolname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,259
+city,TYPE:_:_:nationalityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,260
+city,TYPE:_:_:tag,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,261
+city,TYPE:_:_:citystate,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,262
+city,TYPE:_:_:address,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,263
+city,TYPE:_:_:name,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,264
+city,TYPE:_:_:neighborhoodname,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,265
+city,TYPE:_:_:locationname,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,266
+city,TYPE:_:_:companyname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,267
+city,TYPE:_:_:countryname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,268
+city,TYPE:_:_:district,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,269
+city,TYPE:_:_:venuename,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,270
+city,TYPE:_:_:constructionname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,271
+city,TYPE:_:_:carname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,272
+city,TYPE:_:_:citycode,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,273
+city,TYPE:_:_:movietitle,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,274
+city,TYPE:_:_:cityname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,275
+city,TYPE:_:_:location,indirect,UNCASTABLE,CASTABLE,,False,False,False,276
+city,TYPE:_:_:continentname,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,277
+city,TYPE:_:_:state,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,278
+city,TYPE:_:_:schoolname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,279
+timestamp,TYPE:_:_:unixtimestamp,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,280
+timestamp,TYPE:_:_:scrapedtime,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,281
+timestamp,TYPE:_:_:datestamp,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,282
+timestamp,TYPE:_:_:epochtimestamp,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,283
+timestamp,TYPE:_:_:birthdate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,284
+timestamp,TYPE:_:_:tradingday,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,285
+timestamp,TYPE:_:_:datetimeformat,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,286
+timestamp,TYPE:_:_:datetimetype,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,287
+timestamp,TYPE:_:_:dateandtime,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,288
+timestamp,TYPE:_:_:datetimeclass,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,289
+timestamp,TYPE:_:_:tradingdate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,290
+timestamp,TYPE:_:_:datelocal,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,291
+timestamp,TYPE:_:_:cryptocurrencydate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,292
+timestamp,TYPE:_:_:posttimestamp,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,293
+timestamp,TYPE:_:_:datetimestamp,direct,CASTABLE,CASTABLE,Bidirectional,False,False,False,294
+timestamp,TYPE:_:_:datetimesemantictype,direct,CASTABLE,CASTABLE,Bidirectional,False,False,False,295
+timestamp,TYPE:_:_:date,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,296
+timestamp,TYPE:_:_:orderdeliveredcustomerdate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,297
+timestamp,TYPE:_:_:datestring,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,298
+timestamp,TYPE:_:_:datetimeiso,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,299
+timestamp,TYPE:_:_:unixtimestamp,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,300
+timestamp,TYPE:_:_:scrapedtime,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,301
+timestamp,TYPE:_:_:datestamp,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,302
+timestamp,TYPE:_:_:epochtimestamp,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,303
+timestamp,TYPE:_:_:birthdate,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,304
+timestamp,TYPE:_:_:tradingday,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,305
+timestamp,TYPE:_:_:datetimeformat,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,306
+timestamp,TYPE:_:_:datetimetype,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,307
+timestamp,TYPE:_:_:dateandtime,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,308
+timestamp,TYPE:_:_:datetimeclass,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,309
+timestamp,TYPE:_:_:tradingdate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,310
+timestamp,TYPE:_:_:datelocal,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,311
+timestamp,TYPE:_:_:cryptocurrencydate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,312
+timestamp,TYPE:_:_:posttimestamp,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,313
+timestamp,TYPE:_:_:datetimestamp,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,314
+timestamp,TYPE:_:_:datetimesemantictype,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,315
+timestamp,TYPE:_:_:date,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,316
+timestamp,TYPE:_:_:orderdeliveredcustomerdate,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,317
+timestamp,TYPE:_:_:datestring,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,318
+timestamp,TYPE:_:_:datetimeiso,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,319
+region,TYPE:_:_:country,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,320
+region,TYPE:_:_:globalregion,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,321
+region,TYPE:_:_:nationalityname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,322
+region,TYPE:_:_:indianregion,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,323
+region,TYPE:_:_:countryname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,324
+region,TYPE:_:_:serverregion,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,325
+region,TYPE:_:_:provincename,direct,UNCASTABLE,CASTABLE,,False,False,False,326
+region,TYPE:_:_:carname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,327
+region,TYPE:_:_:province,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,328
+region,TYPE:_:_:countrycode,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,329
+region,TYPE:_:_:regionalindicator,direct,UNCASTABLE,CASTABLE,,False,True,False,330
+region,TYPE:_:_:location,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,331
+region,TYPE:_:_:geographicregion,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,332
+region,TYPE:_:_:worldregion,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,333
+region,TYPE:_:_:provincecolumn,direct,UNCASTABLE,CASTABLE,,False,False,False,334
+region,TYPE:_:_:gotregion,direct,UNCASTABLE,CASTABLE,,True,False,False,335
+region,TYPE:_:_:continentname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,336
+region,TYPE:_:_:countryidentifier,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,337
+region,TYPE:_:_:countryregion,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,338
+region,TYPE:_:_:regionname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,339
+region,TYPE:_:_:country,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,340
+region,TYPE:_:_:globalregion,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,341
+region,TYPE:_:_:nationalityname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,342
+region,TYPE:_:_:indianregion,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,343
+region,TYPE:_:_:countryname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,344
+region,TYPE:_:_:serverregion,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,345
+region,TYPE:_:_:provincename,indirect,UNCASTABLE,CASTABLE,,False,False,False,346
+region,TYPE:_:_:carname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,347
+region,TYPE:_:_:province,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,348
+region,TYPE:_:_:countrycode,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,349
+region,TYPE:_:_:regionalindicator,indirect,UNCASTABLE,CASTABLE,,False,True,False,350
+region,TYPE:_:_:location,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,351
+region,TYPE:_:_:geographicregion,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,352
+region,TYPE:_:_:worldregion,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,353
+region,TYPE:_:_:provincecolumn,indirect,UNCASTABLE,CASTABLE,,False,False,False,354
+region,TYPE:_:_:gotregion,indirect,UNCASTABLE,CASTABLE,,True,False,False,355
+region,TYPE:_:_:continentname,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,356
+region,TYPE:_:_:countryidentifier,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,357
+region,TYPE:_:_:countryregion,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,358
+region,TYPE:_:_:regionname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,359
+cityname,TYPE:_:_:breweryname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,360
+cityname,TYPE:_:_:charactername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,361
+cityname,TYPE:_:_:nationalityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,362
+cityname,TYPE:_:_:city,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,363
+cityname,TYPE:_:_:citystate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,364
+cityname,TYPE:_:_:brandname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,365
+cityname,TYPE:_:_:neighborhoodname,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,366
+cityname,TYPE:_:_:restaurantname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,367
+cityname,TYPE:_:_:provincename,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,368
+cityname,TYPE:_:_:countryname,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,369
+cityname,TYPE:_:_:restaurantlocation,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,370
+cityname,TYPE:_:_:universityname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,371
+cityname,TYPE:_:_:personname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,372
+cityname,TYPE:_:_:surname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,373
+cityname,TYPE:_:_:location,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,374
+cityname,TYPE:_:_:state,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,375
+cityname,TYPE:_:_:continentname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,376
+cityname,TYPE:_:_:countryregion,direct,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,377
+cityname,TYPE:_:_:schoolname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,378
+cityname,TYPE:_:_:districtname,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,379
+cityname,TYPE:_:_:breweryname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,380
+cityname,TYPE:_:_:charactername,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,381
+cityname,TYPE:_:_:nationalityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,382
+cityname,TYPE:_:_:city,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,383
+cityname,TYPE:_:_:citystate,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,384
+cityname,TYPE:_:_:brandname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,385
+cityname,TYPE:_:_:neighborhoodname,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,386
+cityname,TYPE:_:_:restaurantname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,387
+cityname,TYPE:_:_:provincename,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,388
+cityname,TYPE:_:_:countryname,indirect,CASTABLE,UNCASTABLE,Uni Src->Dst,False,False,False,389
+cityname,TYPE:_:_:restaurantlocation,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,390
+cityname,TYPE:_:_:universityname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,391
+cityname,TYPE:_:_:personname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,392
+cityname,TYPE:_:_:surname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,393
+cityname,TYPE:_:_:location,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,394
+cityname,TYPE:_:_:state,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,395
+cityname,TYPE:_:_:continentname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,396
+cityname,TYPE:_:_:countryregion,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,397
+cityname,TYPE:_:_:schoolname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,398
+cityname,TYPE:_:_:districtname,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,399
+price,TYPE:_:_:currencyusd,direct,UNCASTABLE,CASTABLE,,False,False,False,400
+price,TYPE:_:_:ecommprice,direct,UNCASTABLE,CASTABLE,,False,False,False,401
+price,TYPE:_:_:fossilprice,direct,UNCASTABLE,UNCASTABLE,,False,False,False,402
+price,TYPE:_:_:priceinrupees,direct,UNCASTABLE,UNCASTABLE,,False,False,False,403
+price,TYPE:_:_:playerprice,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,404
+price,TYPE:_:_:monthlyrate,direct,UNCASTABLE,CASTABLE,,False,False,False,405
+price,TYPE:_:_:revenue,direct,UNCASTABLE,CASTABLE,,False,False,False,406
+price,TYPE:_:_:bookprice,direct,UNCASTABLE,UNCASTABLE,,False,False,False,407
+price,TYPE:_:_:cryptocurrencyprice,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,408
+price,TYPE:_:_:cost,direct,CASTABLE,CASTABLE,Bidirectional,False,False,False,409
+price,TYPE:_:_:priceusd,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,410
+price,TYPE:_:_:sell,direct,UNCASTABLE,UNCASTABLE,,False,False,False,411
+price,TYPE:_:_:milesprice,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,412
+price,TYPE:_:_:realestateprice,direct,UNCASTABLE,UNCASTABLE,,False,False,False,413
+price,TYPE:_:_:sellprice,direct,UNCASTABLE,UNCASTABLE,,True,False,False,414
+price,TYPE:_:_:currencyvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,415
+price,TYPE:_:_:dailyrate,direct,UNCASTABLE,CASTABLE,,False,False,False,416
+price,TYPE:_:_:loanamount,direct,UNCASTABLE,CASTABLE,,False,False,False,417
+price,TYPE:_:_:salary,direct,UNCASTABLE,CASTABLE,,False,False,False,418
+price,TYPE:_:_:usdprice,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,True,False,419
+price,TYPE:_:_:currencyusd,indirect,UNCASTABLE,CASTABLE,,False,False,False,420
+price,TYPE:_:_:ecommprice,indirect,UNCASTABLE,CASTABLE,,False,False,False,421
+price,TYPE:_:_:fossilprice,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,422
+price,TYPE:_:_:priceinrupees,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,423
+price,TYPE:_:_:playerprice,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,424
+price,TYPE:_:_:monthlyrate,indirect,UNCASTABLE,CASTABLE,,False,False,False,425
+price,TYPE:_:_:revenue,indirect,UNCASTABLE,CASTABLE,,False,False,False,426
+price,TYPE:_:_:bookprice,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,427
+price,TYPE:_:_:cryptocurrencyprice,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,428
+price,TYPE:_:_:cost,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,429
+price,TYPE:_:_:priceusd,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,430
+price,TYPE:_:_:sell,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,431
+price,TYPE:_:_:milesprice,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,432
+price,TYPE:_:_:realestateprice,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,433
+price,TYPE:_:_:sellprice,indirect,UNCASTABLE,UNCASTABLE,,True,False,False,434
+price,TYPE:_:_:currencyvalue,indirect,UNCASTABLE,CASTABLE,,False,False,False,435
+price,TYPE:_:_:dailyrate,indirect,UNCASTABLE,CASTABLE,,False,False,False,436
+price,TYPE:_:_:loanamount,indirect,UNCASTABLE,CASTABLE,,False,False,False,437
+price,TYPE:_:_:salary,indirect,UNCASTABLE,CASTABLE,,False,False,False,438
+price,TYPE:_:_:usdprice,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,True,False,439
+rating,TYPE:_:_:userrating,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,440
+rating,TYPE:_:_:averagescore,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,441
+rating,TYPE:_:_:scoringcount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,442
+rating,TYPE:_:_:qualityscore,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,443
+rating,TYPE:_:_:movierating,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,444
+rating,TYPE:_:_:animerating,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,445
+rating,TYPE:_:_:reviewrating,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,446
+rating,TYPE:_:_:clothingrating,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,447
+rating,TYPE:_:_:health,direct,UNCASTABLE,UNCASTABLE,,False,False,False,448
+rating,TYPE:_:_:alcohol,direct,UNCASTABLE,UNCASTABLE,,False,False,False,449
+rating,TYPE:_:_:score,direct,UNCASTABLE,UNCASTABLE,,False,False,False,450
+rating,TYPE:_:_:playeroverall,direct,UNCASTABLE,UNCASTABLE,,False,False,False,451
+rating,TYPE:_:_:reviewerscore,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,452
+rating,TYPE:_:_:ratingscale,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,453
+rating,TYPE:_:_:healthlifeexpectancy,direct,UNCASTABLE,CASTABLE,,False,True,True,454
+rating,TYPE:_:_:ratingcounts,direct,UNCASTABLE,UNCASTABLE,,False,False,False,455
+rating,TYPE:_:_:bookrating,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,456
+rating,TYPE:_:_:playerrating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,457
+rating,TYPE:_:_:ratingcount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,458
+rating,TYPE:_:_:decimalpercent,direct,UNCASTABLE,UNCASTABLE,,False,False,False,459
+rating,TYPE:_:_:userrating,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,460
+rating,TYPE:_:_:averagescore,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,461
+rating,TYPE:_:_:scoringcount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,462
+rating,TYPE:_:_:qualityscore,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,463
+rating,TYPE:_:_:movierating,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,464
+rating,TYPE:_:_:animerating,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,465
+rating,TYPE:_:_:reviewrating,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,466
+rating,TYPE:_:_:clothingrating,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,467
+rating,TYPE:_:_:health,indirect,UNCASTABLE,CASTABLE,,False,False,False,468
+rating,TYPE:_:_:alcohol,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,469
+rating,TYPE:_:_:score,indirect,UNCASTABLE,CASTABLE,,False,False,False,470
+rating,TYPE:_:_:playeroverall,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,471
+rating,TYPE:_:_:reviewerscore,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,472
+rating,TYPE:_:_:ratingscale,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,473
+rating,TYPE:_:_:healthlifeexpectancy,indirect,UNCASTABLE,CASTABLE,,False,True,True,474
+rating,TYPE:_:_:ratingcounts,indirect,UNCASTABLE,CASTABLE,,False,False,False,475
+rating,TYPE:_:_:bookrating,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,476
+rating,TYPE:_:_:playerrating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,477
+rating,TYPE:_:_:ratingcount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,478
+rating,TYPE:_:_:decimalpercent,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,479
+personname,TYPE:_:_:playername,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,480
+personname,TYPE:_:_:charactername,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,481
+personname,TYPE:_:_:profession,direct,UNCASTABLE,UNCASTABLE,,False,False,False,482
+personname,TYPE:_:_:songname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,483
+personname,TYPE:_:_:bookauthor,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,484
+personname,TYPE:_:_:fossilname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,485
+personname,TYPE:_:_:name,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,486
+personname,TYPE:_:_:restaurantname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,487
+personname,TYPE:_:_:postername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,488
+personname,TYPE:_:_:authorname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,489
+personname,TYPE:_:_:universityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,490
+personname,TYPE:_:_:firstname,direct,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,491
+personname,TYPE:_:_:artistname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,492
+personname,TYPE:_:_:customername,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,493
+personname,TYPE:_:_:animalname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,494
+personname,TYPE:_:_:surname,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,495
+personname,TYPE:_:_:sourcename,direct,UNCASTABLE,UNCASTABLE,,False,False,False,496
+personname,TYPE:_:_:cityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,497
+personname,TYPE:_:_:state,direct,UNCASTABLE,UNCASTABLE,,False,False,False,498
+personname,TYPE:_:_:employeename,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,499
+personname,TYPE:_:_:playername,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,500
+personname,TYPE:_:_:charactername,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,501
+personname,TYPE:_:_:profession,indirect,UNCASTABLE,CASTABLE,,False,False,False,502
+personname,TYPE:_:_:songname,indirect,UNCASTABLE,CASTABLE,,False,False,False,503
+personname,TYPE:_:_:bookauthor,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,504
+personname,TYPE:_:_:fossilname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,505
+personname,TYPE:_:_:name,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,506
+personname,TYPE:_:_:restaurantname,indirect,UNCASTABLE,CASTABLE,,False,False,False,507
+personname,TYPE:_:_:postername,indirect,UNCASTABLE,CASTABLE,,False,False,False,508
+personname,TYPE:_:_:authorname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,509
+personname,TYPE:_:_:universityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,510
+personname,TYPE:_:_:firstname,indirect,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,511
+personname,TYPE:_:_:artistname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,512
+personname,TYPE:_:_:customername,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,513
+personname,TYPE:_:_:animalname,indirect,UNCASTABLE,CASTABLE,,False,False,False,514
+personname,TYPE:_:_:surname,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,515
+personname,TYPE:_:_:sourcename,indirect,UNCASTABLE,CASTABLE,,False,False,False,516
+personname,TYPE:_:_:cityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,517
+personname,TYPE:_:_:state,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,518
+personname,TYPE:_:_:employeename,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,519
+location,TYPE:_:_:charactername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,520
+location,TYPE:_:_:country,direct,UNCASTABLE,UNCASTABLE,,False,False,False,521
+location,TYPE:_:_:globalregion,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,522
+location,TYPE:_:_:nationalityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,523
+location,TYPE:_:_:city,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,524
+location,TYPE:_:_:citystate,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,525
+location,TYPE:_:_:address,direct,UNCASTABLE,UNCASTABLE,,False,False,False,526
+location,TYPE:_:_:neighborhoodname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,527
+location,TYPE:_:_:locationname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,528
+location,TYPE:_:_:countryname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,529
+location,TYPE:_:_:region,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,530
+location,TYPE:_:_:restaurantlocation,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,531
+location,TYPE:_:_:countrycode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,532
+location,TYPE:_:_:cityname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,533
+location,TYPE:_:_:geographicregion,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,534
+location,TYPE:_:_:worldregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,535
+location,TYPE:_:_:continentname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,536
+location,TYPE:_:_:state,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,537
+location,TYPE:_:_:countryregion,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,538
+location,TYPE:_:_:regionname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,539
+location,TYPE:_:_:charactername,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,540
+location,TYPE:_:_:country,indirect,UNCASTABLE,CASTABLE,,False,False,False,541
+location,TYPE:_:_:globalregion,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,542
+location,TYPE:_:_:nationalityname,indirect,UNCASTABLE,CASTABLE,,False,False,False,543
+location,TYPE:_:_:city,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,544
+location,TYPE:_:_:citystate,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,545
+location,TYPE:_:_:address,indirect,UNCASTABLE,CASTABLE,,False,False,False,546
+location,TYPE:_:_:neighborhoodname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,547
+location,TYPE:_:_:locationname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,548
+location,TYPE:_:_:countryname,indirect,UNCASTABLE,CASTABLE,,False,False,False,549
+location,TYPE:_:_:region,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,550
+location,TYPE:_:_:restaurantlocation,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,551
+location,TYPE:_:_:countrycode,indirect,UNCASTABLE,CASTABLE,,False,False,False,552
+location,TYPE:_:_:cityname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,553
+location,TYPE:_:_:geographicregion,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,554
+location,TYPE:_:_:worldregion,indirect,UNCASTABLE,CASTABLE,,False,False,False,555
+location,TYPE:_:_:continentname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,556
+location,TYPE:_:_:state,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,557
+location,TYPE:_:_:countryregion,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,558
+location,TYPE:_:_:regionname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,559
+educationlevel,TYPE:_:_:gradecategory,direct,UNCASTABLE,UNCASTABLE,,False,False,False,560
+educationlevel,TYPE:_:_:incomelevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,561
+educationlevel,TYPE:_:_:parenteducationlevel,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,562
+educationlevel,TYPE:_:_:mothereducation,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,True,True,True,563
+educationlevel,TYPE:_:_:waterlevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,564
+educationlevel,TYPE:_:_:customerage,direct,UNCASTABLE,UNCASTABLE,,False,False,False,565
+educationlevel,TYPE:_:_:education,direct,UNCASTABLE,UNCASTABLE,,False,False,False,566
+educationlevel,TYPE:_:_:level,direct,UNCASTABLE,UNCASTABLE,,False,False,False,567
+educationlevel,TYPE:_:_:age,direct,UNCASTABLE,UNCASTABLE,,False,False,False,568
+educationlevel,TYPE:_:_:studentidentifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,569
+educationlevel,TYPE:_:_:readingscore,direct,UNCASTABLE,UNCASTABLE,,False,False,False,570
+educationlevel,TYPE:_:_:educationquality,direct,UNCASTABLE,UNCASTABLE,,False,False,False,571
+educationlevel,TYPE:_:_:emotionlevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,572
+educationlevel,TYPE:_:_:fathereducation,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,True,True,True,573
+educationlevel,TYPE:_:_:mathscore,direct,UNCASTABLE,UNCASTABLE,,False,False,False,574
+educationlevel,TYPE:_:_:studentpopulation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,575
+educationlevel,TYPE:_:_:studentage,direct,UNCASTABLE,UNCASTABLE,,False,False,False,576
+educationlevel,TYPE:_:_:experiencelevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,577
+educationlevel,TYPE:_:_:releventexperience,direct,UNCASTABLE,UNCASTABLE,,False,False,False,578
+educationlevel,TYPE:_:_:tierlevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,579
+educationlevel,TYPE:_:_:gradecategory,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,580
+educationlevel,TYPE:_:_:incomelevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,581
+educationlevel,TYPE:_:_:parenteducationlevel,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,582
+educationlevel,TYPE:_:_:mothereducation,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,True,True,True,583
+educationlevel,TYPE:_:_:waterlevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,584
+educationlevel,TYPE:_:_:customerage,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,585
+educationlevel,TYPE:_:_:education,indirect,UNCASTABLE,CASTABLE,,False,False,False,586
+educationlevel,TYPE:_:_:level,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,587
+educationlevel,TYPE:_:_:age,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,588
+educationlevel,TYPE:_:_:studentidentifier,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,589
+educationlevel,TYPE:_:_:readingscore,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,590
+educationlevel,TYPE:_:_:educationquality,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,591
+educationlevel,TYPE:_:_:emotionlevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,592
+educationlevel,TYPE:_:_:fathereducation,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,True,True,True,593
+educationlevel,TYPE:_:_:mathscore,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,594
+educationlevel,TYPE:_:_:studentpopulation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,595
+educationlevel,TYPE:_:_:studentage,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,596
+educationlevel,TYPE:_:_:experiencelevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,597
+educationlevel,TYPE:_:_:releventexperience,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,598
+educationlevel,TYPE:_:_:tierlevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,599
+currency,TYPE:_:_:currencyinr,direct,UNCASTABLE,UNCASTABLE,,False,False,False,600
+currency,TYPE:_:_:currencyusd,direct,UNCASTABLE,UNCASTABLE,,False,False,False,601
+currency,TYPE:_:_:currencysymbol,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,602
+currency,TYPE:_:_:monetaryvalueeur,direct,UNCASTABLE,UNCASTABLE,,False,False,False,603
+currency,TYPE:_:_:cryptocurrency,direct,UNCASTABLE,UNCASTABLE,,False,False,False,604
+currency,TYPE:_:_:amount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,605
+currency,TYPE:_:_:revenue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,606
+currency,TYPE:_:_:exchangerate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,607
+currency,TYPE:_:_:currencyamount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,608
+currency,TYPE:_:_:volumecurrency,direct,UNCASTABLE,UNCASTABLE,,False,False,False,609
+currency,TYPE:_:_:exchangerateusd,direct,UNCASTABLE,UNCASTABLE,,False,False,False,610
+currency,TYPE:_:_:tradevalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,611
+currency,TYPE:_:_:cryptocurrencyname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,612
+currency,TYPE:_:_:cryptocurrenciesymbol,direct,UNCASTABLE,UNCASTABLE,,False,False,False,613
+currency,TYPE:_:_:currencyvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,614
+currency,TYPE:_:_:dollaramount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,615
+currency,TYPE:_:_:price,direct,UNCASTABLE,UNCASTABLE,,False,False,False,616
+currency,TYPE:_:_:expenditure,direct,UNCASTABLE,UNCASTABLE,,False,False,False,617
+currency,TYPE:_:_:currencyname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,618
+currency,TYPE:_:_:usdprice,direct,UNCASTABLE,UNCASTABLE,,False,False,False,619
+currency,TYPE:_:_:currencyinr,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,620
+currency,TYPE:_:_:currencyusd,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,621
+currency,TYPE:_:_:currencysymbol,indirect,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,622
+currency,TYPE:_:_:monetaryvalueeur,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,623
+currency,TYPE:_:_:cryptocurrency,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,624
+currency,TYPE:_:_:amount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,625
+currency,TYPE:_:_:revenue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,626
+currency,TYPE:_:_:exchangerate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,627
+currency,TYPE:_:_:currencyamount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,628
+currency,TYPE:_:_:volumecurrency,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,629
+currency,TYPE:_:_:exchangerateusd,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,630
+currency,TYPE:_:_:tradevalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,631
+currency,TYPE:_:_:cryptocurrencyname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,632
+currency,TYPE:_:_:cryptocurrenciesymbol,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,633
+currency,TYPE:_:_:currencyvalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,634
+currency,TYPE:_:_:dollaramount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,635
+currency,TYPE:_:_:price,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,636
+currency,TYPE:_:_:expenditure,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,637
+currency,TYPE:_:_:currencyname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,638
+currency,TYPE:_:_:usdprice,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,639
+temperature,TYPE:_:_:temperaturemeasurement,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,640
+temperature,TYPE:_:_:stockvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,641
+temperature,TYPE:_:_:bodyweight,direct,UNCASTABLE,UNCASTABLE,,False,False,False,642
+temperature,TYPE:_:_:weatherdescription,direct,UNCASTABLE,UNCASTABLE,,False,False,False,643
+temperature,TYPE:_:_:latitudedecimal,direct,UNCASTABLE,UNCASTABLE,,False,False,False,644
+temperature,TYPE:_:_:sugar,direct,UNCASTABLE,UNCASTABLE,,False,False,False,645
+temperature,TYPE:_:_:irradiation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,646
+temperature,TYPE:_:_:fuelprice,direct,UNCASTABLE,UNCASTABLE,,False,False,False,647
+temperature,TYPE:_:_:longitudedecimal,direct,UNCASTABLE,UNCASTABLE,,False,False,False,648
+temperature,TYPE:_:_:nutritionvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,649
+temperature,TYPE:_:_:mortalityrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,650
+temperature,TYPE:_:_:inflation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,651
+temperature,TYPE:_:_:rainfall,direct,UNCASTABLE,UNCASTABLE,,False,False,False,652
+temperature,TYPE:_:_:precipitation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,653
+temperature,TYPE:_:_:vaccinations,direct,UNCASTABLE,UNCASTABLE,,False,False,False,654
+temperature,TYPE:_:_:weathercode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,655
+temperature,TYPE:_:_:humidity,direct,UNCASTABLE,UNCASTABLE,,False,False,False,656
+temperature,TYPE:_:_:alcoholconsumption,direct,UNCASTABLE,UNCASTABLE,,False,False,False,657
+temperature,TYPE:_:_:insulinlevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,658
+temperature,TYPE:_:_:windspeed,direct,UNCASTABLE,UNCASTABLE,,False,False,False,659
+temperature,TYPE:_:_:temperaturemeasurement,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,660
+temperature,TYPE:_:_:stockvalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,661
+temperature,TYPE:_:_:bodyweight,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,662
+temperature,TYPE:_:_:weatherdescription,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,663
+temperature,TYPE:_:_:latitudedecimal,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,664
+temperature,TYPE:_:_:sugar,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,665
+temperature,TYPE:_:_:irradiation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,666
+temperature,TYPE:_:_:fuelprice,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,667
+temperature,TYPE:_:_:longitudedecimal,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,668
+temperature,TYPE:_:_:nutritionvalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,669
+temperature,TYPE:_:_:mortalityrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,670
+temperature,TYPE:_:_:inflation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,671
+temperature,TYPE:_:_:rainfall,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,672
+temperature,TYPE:_:_:precipitation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,673
+temperature,TYPE:_:_:vaccinations,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,674
+temperature,TYPE:_:_:weathercode,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,675
+temperature,TYPE:_:_:humidity,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,676
+temperature,TYPE:_:_:alcoholconsumption,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,677
+temperature,TYPE:_:_:insulinlevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,678
+temperature,TYPE:_:_:windspeed,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,679
+bloodpressure,TYPE:_:_:serumlevels,direct,UNCASTABLE,UNCASTABLE,,False,False,False,680
+bloodpressure,TYPE:_:_:serumcreatinine,direct,UNCASTABLE,UNCASTABLE,,False,False,False,681
+bloodpressure,TYPE:_:_:healthstatus,direct,UNCASTABLE,UNCASTABLE,,False,False,False,682
+bloodpressure,TYPE:_:_:serumiron,direct,UNCASTABLE,UNCASTABLE,,False,False,False,683
+bloodpressure,TYPE:_:_:mileage,direct,UNCASTABLE,UNCASTABLE,,False,False,False,684
+bloodpressure,TYPE:_:_:systolicbloodpressure,direct,UNCASTABLE,CASTABLE,,False,False,False,685
+bloodpressure,TYPE:_:_:heartrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,686
+bloodpressure,TYPE:_:_:serumglucose,direct,UNCASTABLE,UNCASTABLE,,False,False,False,687
+bloodpressure,TYPE:_:_:bodyweight,direct,UNCASTABLE,UNCASTABLE,,False,False,False,688
+bloodpressure,TYPE:_:_:plateletcount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,689
+bloodpressure,TYPE:_:_:diastolicbloodpressure,direct,UNCASTABLE,UNCASTABLE,,False,False,False,690
+bloodpressure,TYPE:_:_:patientage,direct,UNCASTABLE,UNCASTABLE,,False,False,False,691
+bloodpressure,TYPE:_:_:maxheartrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,692
+bloodpressure,TYPE:_:_:postalcode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,693
+bloodpressure,TYPE:_:_:age,direct,UNCASTABLE,UNCASTABLE,,False,False,False,694
+bloodpressure,TYPE:_:_:glucoselevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,695
+bloodpressure,TYPE:_:_:cholesterol,direct,UNCASTABLE,UNCASTABLE,,False,False,False,696
+bloodpressure,TYPE:_:_:chestpain,direct,UNCASTABLE,UNCASTABLE,,False,False,False,697
+bloodpressure,TYPE:_:_:bloodglucoselevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,698
+bloodpressure,TYPE:_:_:insulinlevel,direct,UNCASTABLE,UNCASTABLE,,False,False,False,699
+bloodpressure,TYPE:_:_:serumlevels,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,700
+bloodpressure,TYPE:_:_:serumcreatinine,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,701
+bloodpressure,TYPE:_:_:healthstatus,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,702
+bloodpressure,TYPE:_:_:serumiron,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,703
+bloodpressure,TYPE:_:_:mileage,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,704
+bloodpressure,TYPE:_:_:systolicbloodpressure,indirect,UNCASTABLE,CASTABLE,,False,False,False,705
+bloodpressure,TYPE:_:_:heartrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,706
+bloodpressure,TYPE:_:_:serumglucose,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,707
+bloodpressure,TYPE:_:_:bodyweight,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,708
+bloodpressure,TYPE:_:_:plateletcount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,709
+bloodpressure,TYPE:_:_:diastolicbloodpressure,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,710
+bloodpressure,TYPE:_:_:patientage,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,711
+bloodpressure,TYPE:_:_:maxheartrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,712
+bloodpressure,TYPE:_:_:postalcode,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,713
+bloodpressure,TYPE:_:_:age,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,714
+bloodpressure,TYPE:_:_:glucoselevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,715
+bloodpressure,TYPE:_:_:cholesterol,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,716
+bloodpressure,TYPE:_:_:chestpain,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,717
+bloodpressure,TYPE:_:_:bloodglucoselevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,718
+bloodpressure,TYPE:_:_:insulinlevel,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,719
+teamname,TYPE:_:_:playername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,720
+teamname,TYPE:_:_:teamcity,direct,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,721
+teamname,TYPE:_:_:charactername,direct,UNCASTABLE,UNCASTABLE,,False,False,False,722
+teamname,TYPE:_:_:team,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,723
+teamname,TYPE:_:_:playerclub,direct,UNCASTABLE,UNCASTABLE,,False,False,False,724
+teamname,TYPE:_:_:abbreviation,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,725
+teamname,TYPE:_:_:nickname,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,726
+teamname,TYPE:_:_:lastname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,727
+teamname,TYPE:_:_:authorname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,728
+teamname,TYPE:_:_:racingteam,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,729
+teamname,TYPE:_:_:teamabbreviation,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,730
+teamname,TYPE:_:_:firstname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,731
+teamname,TYPE:_:_:teamconference,direct,UNCASTABLE,UNCASTABLE,,False,False,False,732
+teamname,TYPE:_:_:teamidentifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,733
+teamname,TYPE:_:_:leaguename,direct,UNCASTABLE,UNCASTABLE,,False,False,False,734
+teamname,TYPE:_:_:sourcename,direct,UNCASTABLE,UNCASTABLE,,False,False,False,735
+teamname,TYPE:_:_:teamdivision,direct,UNCASTABLE,UNCASTABLE,,False,False,False,736
+teamname,TYPE:_:_:teamnameshort,direct,CASTABLE,UNCASTABLE,Bidirectional,True,True,True,737
+teamname,TYPE:_:_:coachname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,738
+teamname,TYPE:_:_:cricketteam,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,739
+teamname,TYPE:_:_:playername,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,740
+teamname,TYPE:_:_:teamcity,indirect,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,741
+teamname,TYPE:_:_:charactername,indirect,UNCASTABLE,CASTABLE,,False,False,False,742
+teamname,TYPE:_:_:team,indirect,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,743
+teamname,TYPE:_:_:playerclub,indirect,UNCASTABLE,CASTABLE,,False,False,False,744
+teamname,TYPE:_:_:abbreviation,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,745
+teamname,TYPE:_:_:nickname,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,746
+teamname,TYPE:_:_:lastname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,747
+teamname,TYPE:_:_:authorname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,748
+teamname,TYPE:_:_:racingteam,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,749
+teamname,TYPE:_:_:teamabbreviation,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,750
+teamname,TYPE:_:_:firstname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,751
+teamname,TYPE:_:_:teamconference,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,752
+teamname,TYPE:_:_:teamidentifier,indirect,UNCASTABLE,CASTABLE,,False,False,False,753
+teamname,TYPE:_:_:leaguename,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,754
+teamname,TYPE:_:_:sourcename,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,755
+teamname,TYPE:_:_:teamdivision,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,756
+teamname,TYPE:_:_:teamnameshort,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,757
+teamname,TYPE:_:_:coachname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,758
+teamname,TYPE:_:_:cricketteam,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,759
+jobtitle,TYPE:_:_:charactername,direct,UNCASTABLE,CASTABLE,,False,False,False,760
+jobtitle,TYPE:_:_:job,direct,UNCASTABLE,CASTABLE,,False,False,False,761
+jobtitle,TYPE:_:_:city,direct,UNCASTABLE,CASTABLE,,False,False,False,762
+jobtitle,TYPE:_:_:jobcategory,direct,UNCASTABLE,CASTABLE,,False,True,True,763
+jobtitle,TYPE:_:_:joblocation,direct,UNCASTABLE,CASTABLE,,False,False,False,764
+jobtitle,TYPE:_:_:employmenttype,direct,UNCASTABLE,CASTABLE,,False,False,False,765
+jobtitle,TYPE:_:_:address,direct,UNCASTABLE,CASTABLE,,False,False,False,766
+jobtitle,TYPE:_:_:name,direct,UNCASTABLE,CASTABLE,,False,False,False,767
+jobtitle,TYPE:_:_:companyname,direct,UNCASTABLE,CASTABLE,,False,False,False,768
+jobtitle,TYPE:_:_:constructionname,direct,UNCASTABLE,CASTABLE,,False,False,False,769
+jobtitle,TYPE:_:_:recruitment,direct,UNCASTABLE,CASTABLE,,False,False,False,770
+jobtitle,TYPE:_:_:jobrole,direct,UNCASTABLE,CASTABLE,,False,True,True,771
+jobtitle,TYPE:_:_:authorname,direct,UNCASTABLE,CASTABLE,,False,False,False,772
+jobtitle,TYPE:_:_:customername,direct,UNCASTABLE,CASTABLE,,False,False,False,773
+jobtitle,TYPE:_:_:companycountry,direct,UNCASTABLE,CASTABLE,,False,False,False,774
+jobtitle,TYPE:_:_:ownershiptype,direct,UNCASTABLE,CASTABLE,,False,False,False,775
+jobtitle,TYPE:_:_:sourcename,direct,UNCASTABLE,CASTABLE,,False,False,False,776
+jobtitle,TYPE:_:_:movietitle,direct,UNCASTABLE,CASTABLE,,False,False,False,777
+jobtitle,TYPE:_:_:brandname,direct,UNCASTABLE,CASTABLE,,False,False,False,778
+jobtitle,TYPE:_:_:employeename,direct,UNCASTABLE,CASTABLE,,False,False,False,779
+jobtitle,TYPE:_:_:charactername,indirect,UNCASTABLE,CASTABLE,,False,False,False,780
+jobtitle,TYPE:_:_:job,indirect,UNCASTABLE,CASTABLE,,False,False,False,781
+jobtitle,TYPE:_:_:city,indirect,UNCASTABLE,CASTABLE,,False,False,False,782
+jobtitle,TYPE:_:_:jobcategory,indirect,UNCASTABLE,CASTABLE,,False,True,True,783
+jobtitle,TYPE:_:_:joblocation,indirect,UNCASTABLE,CASTABLE,,False,False,False,784
+jobtitle,TYPE:_:_:employmenttype,indirect,UNCASTABLE,CASTABLE,,False,False,False,785
+jobtitle,TYPE:_:_:address,indirect,UNCASTABLE,CASTABLE,,False,False,False,786
+jobtitle,TYPE:_:_:name,indirect,UNCASTABLE,CASTABLE,,False,False,False,787
+jobtitle,TYPE:_:_:companyname,indirect,UNCASTABLE,CASTABLE,,False,False,False,788
+jobtitle,TYPE:_:_:constructionname,indirect,UNCASTABLE,CASTABLE,,False,False,False,789
+jobtitle,TYPE:_:_:recruitment,indirect,UNCASTABLE,CASTABLE,,False,False,False,790
+jobtitle,TYPE:_:_:jobrole,indirect,UNCASTABLE,CASTABLE,,False,True,True,791
+jobtitle,TYPE:_:_:authorname,indirect,UNCASTABLE,CASTABLE,,False,False,False,792
+jobtitle,TYPE:_:_:customername,indirect,UNCASTABLE,CASTABLE,,False,False,False,793
+jobtitle,TYPE:_:_:companycountry,indirect,UNCASTABLE,CASTABLE,,False,False,False,794
+jobtitle,TYPE:_:_:ownershiptype,indirect,UNCASTABLE,CASTABLE,,False,False,False,795
+jobtitle,TYPE:_:_:sourcename,indirect,UNCASTABLE,CASTABLE,,False,False,False,796
+jobtitle,TYPE:_:_:movietitle,indirect,UNCASTABLE,CASTABLE,,False,False,False,797
+jobtitle,TYPE:_:_:brandname,indirect,UNCASTABLE,CASTABLE,,False,False,False,798
+jobtitle,TYPE:_:_:employeename,indirect,UNCASTABLE,CASTABLE,,False,False,False,799
+sex,TYPE:_:_:winner,direct,UNCASTABLE,UNCASTABLE,,False,False,False,800
+sex,TYPE:_:_:nobility,direct,UNCASTABLE,UNCASTABLE,,False,False,False,801
+sex,TYPE:_:_:pokemonname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,802
+sex,TYPE:_:_:gender,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,803
+sex,TYPE:_:_:race,direct,UNCASTABLE,UNCASTABLE,,False,False,False,804
+sex,TYPE:_:_:source,direct,UNCASTABLE,UNCASTABLE,,False,False,False,805
+sex,TYPE:_:_:category,direct,UNCASTABLE,UNCASTABLE,,False,False,False,806
+sex,TYPE:_:_:roomtype,direct,UNCASTABLE,UNCASTABLE,,False,False,False,807
+sex,TYPE:_:_:identifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,808
+sex,TYPE:_:_:hand,direct,UNCASTABLE,UNCASTABLE,,False,False,False,809
+sex,TYPE:_:_:victimsex,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,810
+sex,TYPE:_:_:fishname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,811
+sex,TYPE:_:_:foot,direct,UNCASTABLE,UNCASTABLE,,False,False,False,812
+sex,TYPE:_:_:customersex,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,813
+sex,TYPE:_:_:married,direct,UNCASTABLE,UNCASTABLE,,False,False,False,814
+sex,TYPE:_:_:position,direct,UNCASTABLE,UNCASTABLE,,False,False,False,815
+sex,TYPE:_:_:unnamed,direct,UNCASTABLE,UNCASTABLE,,False,False,False,816
+sex,TYPE:_:_:maritalstatus,direct,UNCASTABLE,UNCASTABLE,,False,False,False,817
+sex,TYPE:_:_:englishword,direct,UNCASTABLE,UNCASTABLE,,False,False,False,818
+sex,TYPE:_:_:model,direct,UNCASTABLE,UNCASTABLE,,False,False,False,819
+sex,TYPE:_:_:winner,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,820
+sex,TYPE:_:_:nobility,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,821
+sex,TYPE:_:_:pokemonname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,822
+sex,TYPE:_:_:gender,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,823
+sex,TYPE:_:_:race,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,824
+sex,TYPE:_:_:source,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,825
+sex,TYPE:_:_:category,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,826
+sex,TYPE:_:_:roomtype,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,827
+sex,TYPE:_:_:identifier,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,828
+sex,TYPE:_:_:hand,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,829
+sex,TYPE:_:_:victimsex,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,830
+sex,TYPE:_:_:fishname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,831
+sex,TYPE:_:_:foot,indirect,UNCASTABLE,CASTABLE,,False,False,False,832
+sex,TYPE:_:_:customersex,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,False,833
+sex,TYPE:_:_:married,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,834
+sex,TYPE:_:_:position,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,835
+sex,TYPE:_:_:unnamed,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,836
+sex,TYPE:_:_:maritalstatus,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,837
+sex,TYPE:_:_:englishword,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,838
+sex,TYPE:_:_:model,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,839
+nationality,TYPE:_:_:origincountry,direct,UNCASTABLE,UNCASTABLE,,False,False,False,840
+nationality,TYPE:_:_:nationalityidentifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,841
+nationality,TYPE:_:_:country,direct,CASTABLE,CASTABLE,Bidirectional,True,True,False,842
+nationality,TYPE:_:_:nationalityname,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,843
+nationality,TYPE:_:_:countries,direct,UNCASTABLE,CASTABLE,,False,False,False,844
+nationality,TYPE:_:_:countryname,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,845
+nationality,TYPE:_:_:playernationality,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,846
+nationality,TYPE:_:_:occupation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,847
+nationality,TYPE:_:_:countryabbreviation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,848
+nationality,TYPE:_:_:region,direct,UNCASTABLE,UNCASTABLE,,False,False,False,849
+nationality,TYPE:_:_:brazilstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,850
+nationality,TYPE:_:_:companycountry,direct,UNCASTABLE,CASTABLE,,False,False,False,851
+nationality,TYPE:_:_:countrycode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,852
+nationality,TYPE:_:_:surname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,853
+nationality,TYPE:_:_:cityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,854
+nationality,TYPE:_:_:location,direct,CASTABLE,CASTABLE,Bidirectional,False,True,False,855
+nationality,TYPE:_:_:geographicregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,856
+nationality,TYPE:_:_:continentname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,857
+nationality,TYPE:_:_:countryidentifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,858
+nationality,TYPE:_:_:countryregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,859
+nationality,TYPE:_:_:origincountry,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,860
+nationality,TYPE:_:_:nationalityidentifier,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,861
+nationality,TYPE:_:_:country,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,False,862
+nationality,TYPE:_:_:nationalityname,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,863
+nationality,TYPE:_:_:countries,indirect,UNCASTABLE,CASTABLE,,False,False,False,864
+nationality,TYPE:_:_:countryname,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,865
+nationality,TYPE:_:_:playernationality,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,866
+nationality,TYPE:_:_:occupation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,867
+nationality,TYPE:_:_:countryabbreviation,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,868
+nationality,TYPE:_:_:region,indirect,UNCASTABLE,CASTABLE,,False,False,False,869
+nationality,TYPE:_:_:brazilstate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,870
+nationality,TYPE:_:_:companycountry,indirect,UNCASTABLE,CASTABLE,,False,False,False,871
+nationality,TYPE:_:_:countrycode,indirect,UNCASTABLE,CASTABLE,,False,False,False,872
+nationality,TYPE:_:_:surname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,873
+nationality,TYPE:_:_:cityname,indirect,UNCASTABLE,CASTABLE,,False,False,False,874
+nationality,TYPE:_:_:location,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,False,875
+nationality,TYPE:_:_:geographicregion,indirect,UNCASTABLE,CASTABLE,,False,False,False,876
+nationality,TYPE:_:_:continentname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,877
+nationality,TYPE:_:_:countryidentifier,indirect,UNCASTABLE,CASTABLE,,False,False,False,878
+nationality,TYPE:_:_:countryregion,indirect,UNCASTABLE,CASTABLE,,False,False,False,879
+month,TYPE:_:_:yearrange,direct,UNCASTABLE,UNCASTABLE,,False,False,False,880
+month,TYPE:_:_:newsdate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,881
+month,TYPE:_:_:year,direct,UNCASTABLE,UNCASTABLE,,False,False,False,882
+month,TYPE:_:_:monthlyrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,883
+month,TYPE:_:_:tenure,direct,UNCASTABLE,UNCASTABLE,,False,False,False,884
+month,TYPE:_:_:number,direct,UNCASTABLE,UNCASTABLE,,False,False,False,885
+month,TYPE:_:_:ageinmonths,direct,UNCASTABLE,UNCASTABLE,,False,False,False,886
+month,TYPE:_:_:seasons,direct,UNCASTABLE,UNCASTABLE,,False,False,False,887
+month,TYPE:_:_:tradeyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,888
+month,TYPE:_:_:bookpublicationyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,889
+month,TYPE:_:_:dayofmonth,direct,UNCASTABLE,UNCASTABLE,,False,False,False,890
+month,TYPE:_:_:dayofyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,891
+month,TYPE:_:_:monthlyincome,direct,UNCASTABLE,UNCASTABLE,,False,False,False,892
+month,TYPE:_:_:birthyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,893
+month,TYPE:_:_:studentage,direct,UNCASTABLE,UNCASTABLE,,False,False,False,894
+month,TYPE:_:_:date,direct,UNCASTABLE,UNCASTABLE,,False,False,False,895
+month,TYPE:_:_:datestring,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,896
+month,TYPE:_:_:days,direct,UNCASTABLE,UNCASTABLE,,False,False,False,897
+month,TYPE:_:_:season,direct,UNCASTABLE,UNCASTABLE,,False,False,False,898
+month,TYPE:_:_:monthoffset,direct,UNCASTABLE,UNCASTABLE,,False,False,False,899
+month,TYPE:_:_:yearrange,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,900
+month,TYPE:_:_:newsdate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,901
+month,TYPE:_:_:year,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,902
+month,TYPE:_:_:monthlyrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,903
+month,TYPE:_:_:tenure,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,904
+month,TYPE:_:_:number,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,905
+month,TYPE:_:_:ageinmonths,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,906
+month,TYPE:_:_:seasons,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,907
+month,TYPE:_:_:tradeyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,908
+month,TYPE:_:_:bookpublicationyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,909
+month,TYPE:_:_:dayofmonth,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,910
+month,TYPE:_:_:dayofyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,911
+month,TYPE:_:_:monthlyincome,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,912
+month,TYPE:_:_:birthyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,913
+month,TYPE:_:_:studentage,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,914
+month,TYPE:_:_:date,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,915
+month,TYPE:_:_:datestring,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,916
+month,TYPE:_:_:days,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,917
+month,TYPE:_:_:season,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,918
+month,TYPE:_:_:monthoffset,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,919
+agegroup,TYPE:_:_:yearrange,direct,UNCASTABLE,UNCASTABLE,,False,False,False,920
+agegroup,TYPE:_:_:decade,direct,UNCASTABLE,UNCASTABLE,,False,False,False,921
+agegroup,TYPE:_:_:playerage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,922
+agegroup,TYPE:_:_:year,direct,UNCASTABLE,UNCASTABLE,,False,False,False,923
+agegroup,TYPE:_:_:customerage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,924
+agegroup,TYPE:_:_:patientage,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,925
+agegroup,TYPE:_:_:ageofshooter,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,926
+agegroup,TYPE:_:_:ageinmonths,direct,UNCASTABLE,UNCASTABLE,,False,False,False,927
+agegroup,TYPE:_:_:tradeyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,928
+agegroup,TYPE:_:_:movieyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,929
+agegroup,TYPE:_:_:seasonyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,930
+agegroup,TYPE:_:_:age,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,931
+agegroup,TYPE:_:_:totalworkingyears,direct,UNCASTABLE,UNCASTABLE,,False,False,False,932
+agegroup,TYPE:_:_:group,direct,UNCASTABLE,UNCASTABLE,,False,False,False,933
+agegroup,TYPE:_:_:showreleaseyear,direct,UNCASTABLE,UNCASTABLE,,False,False,False,934
+agegroup,TYPE:_:_:playerbirthdate,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,935
+agegroup,TYPE:_:_:victimage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,936
+agegroup,TYPE:_:_:birthyear,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,937
+agegroup,TYPE:_:_:studentage,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,938
+agegroup,TYPE:_:_:month,direct,UNCASTABLE,UNCASTABLE,,False,False,False,939
+agegroup,TYPE:_:_:yearrange,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,940
+agegroup,TYPE:_:_:decade,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,941
+agegroup,TYPE:_:_:playerage,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,942
+agegroup,TYPE:_:_:year,indirect,UNCASTABLE,CASTABLE,,False,False,False,943
+agegroup,TYPE:_:_:customerage,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,944
+agegroup,TYPE:_:_:patientage,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,945
+agegroup,TYPE:_:_:ageofshooter,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,946
+agegroup,TYPE:_:_:ageinmonths,indirect,UNCASTABLE,CASTABLE,,False,False,False,947
+agegroup,TYPE:_:_:tradeyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,948
+agegroup,TYPE:_:_:movieyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,949
+agegroup,TYPE:_:_:seasonyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,950
+agegroup,TYPE:_:_:age,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,False,False,951
+agegroup,TYPE:_:_:totalworkingyears,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,952
+agegroup,TYPE:_:_:group,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,953
+agegroup,TYPE:_:_:showreleaseyear,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,954
+agegroup,TYPE:_:_:playerbirthdate,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,955
+agegroup,TYPE:_:_:victimage,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,956
+agegroup,TYPE:_:_:birthyear,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,False,False,957
+agegroup,TYPE:_:_:studentage,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,958
+agegroup,TYPE:_:_:month,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,959
+windspeed,TYPE:_:_:winddeg,direct,UNCASTABLE,UNCASTABLE,,False,False,False,960
+windspeed,TYPE:_:_:flightdistance,direct,UNCASTABLE,UNCASTABLE,,False,False,False,961
+windspeed,TYPE:_:_:heartrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,962
+windspeed,TYPE:_:_:stockvalue,direct,UNCASTABLE,CASTABLE,,False,False,False,963
+windspeed,TYPE:_:_:bodyweight,direct,UNCASTABLE,UNCASTABLE,,False,False,False,964
+windspeed,TYPE:_:_:bodyheight,direct,UNCASTABLE,UNCASTABLE,,False,False,False,965
+windspeed,TYPE:_:_:clockspeed,direct,UNCASTABLE,UNCASTABLE,,False,False,False,966
+windspeed,TYPE:_:_:speed,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,967
+windspeed,TYPE:_:_:winddirection,direct,UNCASTABLE,UNCASTABLE,,False,False,False,968
+windspeed,TYPE:_:_:carweight,direct,UNCASTABLE,UNCASTABLE,,False,False,False,969
+windspeed,TYPE:_:_:longitudedecimal,direct,UNCASTABLE,UNCASTABLE,,False,False,False,970
+windspeed,TYPE:_:_:mortalityrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,971
+windspeed,TYPE:_:_:magnitude,direct,UNCASTABLE,UNCASTABLE,,False,False,False,972
+windspeed,TYPE:_:_:time,direct,UNCASTABLE,UNCASTABLE,,False,False,False,973
+windspeed,TYPE:_:_:health,direct,UNCASTABLE,UNCASTABLE,,False,False,False,974
+windspeed,TYPE:_:_:speedmeasurement,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,975
+windspeed,TYPE:_:_:weathercode,direct,UNCASTABLE,UNCASTABLE,,False,False,False,976
+windspeed,TYPE:_:_:airpollutantconcentration,direct,UNCASTABLE,UNCASTABLE,,False,False,False,977
+windspeed,TYPE:_:_:temperature,direct,UNCASTABLE,UNCASTABLE,,False,False,False,978
+windspeed,TYPE:_:_:alcoholconsumption,direct,UNCASTABLE,CASTABLE,,False,False,False,979
+windspeed,TYPE:_:_:winddeg,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,980
+windspeed,TYPE:_:_:flightdistance,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,981
+windspeed,TYPE:_:_:heartrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,982
+windspeed,TYPE:_:_:stockvalue,indirect,UNCASTABLE,CASTABLE,,False,False,False,983
+windspeed,TYPE:_:_:bodyweight,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,984
+windspeed,TYPE:_:_:bodyheight,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,985
+windspeed,TYPE:_:_:clockspeed,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,986
+windspeed,TYPE:_:_:speed,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,987
+windspeed,TYPE:_:_:winddirection,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,988
+windspeed,TYPE:_:_:carweight,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,989
+windspeed,TYPE:_:_:longitudedecimal,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,990
+windspeed,TYPE:_:_:mortalityrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,991
+windspeed,TYPE:_:_:magnitude,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,992
+windspeed,TYPE:_:_:time,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,993
+windspeed,TYPE:_:_:health,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,994
+windspeed,TYPE:_:_:speedmeasurement,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,995
+windspeed,TYPE:_:_:weathercode,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,996
+windspeed,TYPE:_:_:airpollutantconcentration,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,997
+windspeed,TYPE:_:_:temperature,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,998
+windspeed,TYPE:_:_:alcoholconsumption,indirect,UNCASTABLE,CASTABLE,,False,False,False,999
+confirmedcases,TYPE:_:_:covid19cases,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1000
+confirmedcases,TYPE:_:_:casescount,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1001
+confirmedcases,TYPE:_:_:death,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1002
+confirmedcases,TYPE:_:_:totalrecovered,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1003
+confirmedcases,TYPE:_:_:newcases,direct,CASTABLE,CASTABLE,Bidirectional,False,False,True,1004
+confirmedcases,TYPE:_:_:suspectedcases,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1005
+confirmedcases,TYPE:_:_:confirmedcount,direct,UNCASTABLE,CASTABLE,,False,False,False,1006
+confirmedcases,TYPE:_:_:covid19count,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1007
+confirmedcases,TYPE:_:_:casenumber,direct,UNCASTABLE,CASTABLE,,False,False,False,1008
+confirmedcases,TYPE:_:_:covidcases,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1009
+confirmedcases,TYPE:_:_:totaltests,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1010
+confirmedcases,TYPE:_:_:covid19casestatus,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1011
+confirmedcases,TYPE:_:_:newrecovered,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1012
+confirmedcases,TYPE:_:_:covidstatus,direct,UNCASTABLE,CASTABLE,,False,False,False,1013
+confirmedcases,TYPE:_:_:activecases,direct,UNCASTABLE,CASTABLE,,False,False,False,1014
+confirmedcases,TYPE:_:_:recoveredcases,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1015
+confirmedcases,TYPE:_:_:numcases,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1016
+confirmedcases,TYPE:_:_:totalcases,direct,CASTABLE,CASTABLE,Bidirectional,False,False,True,1017
+confirmedcases,TYPE:_:_:confirmed,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1018
+confirmedcases,TYPE:_:_:covid19recoveries,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1019
+confirmedcases,TYPE:_:_:covid19cases,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1020
+confirmedcases,TYPE:_:_:casescount,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1021
+confirmedcases,TYPE:_:_:death,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1022
+confirmedcases,TYPE:_:_:totalrecovered,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1023
+confirmedcases,TYPE:_:_:newcases,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,True,1024
+confirmedcases,TYPE:_:_:suspectedcases,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1025
+confirmedcases,TYPE:_:_:confirmedcount,indirect,UNCASTABLE,CASTABLE,,False,False,False,1026
+confirmedcases,TYPE:_:_:covid19count,indirect,UNCASTABLE,CASTABLE,,False,False,False,1027
+confirmedcases,TYPE:_:_:casenumber,indirect,UNCASTABLE,CASTABLE,,False,False,False,1028
+confirmedcases,TYPE:_:_:covidcases,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1029
+confirmedcases,TYPE:_:_:totaltests,indirect,UNCASTABLE,CASTABLE,,False,False,False,1030
+confirmedcases,TYPE:_:_:covid19casestatus,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1031
+confirmedcases,TYPE:_:_:newrecovered,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1032
+confirmedcases,TYPE:_:_:covidstatus,indirect,UNCASTABLE,CASTABLE,,False,False,False,1033
+confirmedcases,TYPE:_:_:activecases,indirect,UNCASTABLE,CASTABLE,,False,False,False,1034
+confirmedcases,TYPE:_:_:recoveredcases,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1035
+confirmedcases,TYPE:_:_:numcases,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1036
+confirmedcases,TYPE:_:_:totalcases,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,True,1037
+confirmedcases,TYPE:_:_:confirmed,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1038
+confirmedcases,TYPE:_:_:covid19recoveries,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1039
+usstate,TYPE:_:_:uscounty,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1040
+usstate,TYPE:_:_:stateorut,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1041
+usstate,TYPE:_:_:statename,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1042
+usstate,TYPE:_:_:citystate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1043
+usstate,TYPE:_:_:provincestate,direct,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1044
+usstate,TYPE:_:_:patientstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1045
+usstate,TYPE:_:_:stateus,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1046
+usstate,TYPE:_:_:usstateabbreviation,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1047
+usstate,TYPE:_:_:carstate,direct,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,1048
+usstate,TYPE:_:_:provincename,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1049
+usstate,TYPE:_:_:uscity,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1050
+usstate,TYPE:_:_:usstatename,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1051
+usstate,TYPE:_:_:stateprovince,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,1052
+usstate,TYPE:_:_:brazilstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1053
+usstate,TYPE:_:_:stateyearcombo,direct,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,1054
+usstate,TYPE:_:_:stateunionterritory,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1055
+usstate,TYPE:_:_:province,direct,UNCASTABLE,CASTABLE,,False,False,False,1056
+usstate,TYPE:_:_:state,direct,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1057
+usstate,TYPE:_:_:indianstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1058
+usstate,TYPE:_:_:stateabbreviation,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1059
+usstate,TYPE:_:_:uscounty,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1060
+usstate,TYPE:_:_:stateorut,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1061
+usstate,TYPE:_:_:statename,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,1062
+usstate,TYPE:_:_:citystate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1063
+usstate,TYPE:_:_:provincestate,indirect,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1064
+usstate,TYPE:_:_:patientstate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1065
+usstate,TYPE:_:_:stateus,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1066
+usstate,TYPE:_:_:usstateabbreviation,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1067
+usstate,TYPE:_:_:carstate,indirect,CASTABLE,UNCASTABLE,Bidirectional,True,False,False,1068
+usstate,TYPE:_:_:provincename,indirect,UNCASTABLE,CASTABLE,,False,False,False,1069
+usstate,TYPE:_:_:uscity,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1070
+usstate,TYPE:_:_:usstatename,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,1071
+usstate,TYPE:_:_:stateprovince,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,1072
+usstate,TYPE:_:_:brazilstate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1073
+usstate,TYPE:_:_:stateyearcombo,indirect,UNCASTABLE,UNCASTABLE,Uni Dst->Src,False,False,False,1074
+usstate,TYPE:_:_:stateunionterritory,indirect,UNCASTABLE,CASTABLE,,False,False,False,1075
+usstate,TYPE:_:_:province,indirect,UNCASTABLE,CASTABLE,,False,False,False,1076
+usstate,TYPE:_:_:state,indirect,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1077
+usstate,TYPE:_:_:indianstate,indirect,UNCASTABLE,CASTABLE,,False,False,False,1078
+usstate,TYPE:_:_:stateabbreviation,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,False,1079
+weight,TYPE:_:_:sizemeasure,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1080
+weight,TYPE:_:_:enginsize,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1081
+weight,TYPE:_:_:totalweightgrams,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1082
+weight,TYPE:_:_:height,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1083
+weight,TYPE:_:_:bodyweight,direct,CASTABLE,CASTABLE,Bidirectional,True,False,True,1084
+weight,TYPE:_:_:productweightg,direct,CASTABLE,CASTABLE,Bidirectional,False,False,True,1085
+weight,TYPE:_:_:weightpercent,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1086
+weight,TYPE:_:_:identifier,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1087
+weight,TYPE:_:_:carweight,direct,UNCASTABLE,CASTABLE,,False,False,True,1088
+weight,TYPE:_:_:cost,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1089
+weight,TYPE:_:_:caratweight,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1090
+weight,TYPE:_:_:playerweightkg,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1091
+weight,TYPE:_:_:playerweight,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1092
+weight,TYPE:_:_:mobileweight,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1093
+weight,TYPE:_:_:length,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1094
+weight,TYPE:_:_:population,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1095
+weight,TYPE:_:_:bmi,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1096
+weight,TYPE:_:_:unnamed,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1097
+weight,TYPE:_:_:density,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1098
+weight,TYPE:_:_:price,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1099
+weight,TYPE:_:_:sizemeasure,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1100
+weight,TYPE:_:_:enginsize,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1101
+weight,TYPE:_:_:totalweightgrams,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1102
+weight,TYPE:_:_:height,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1103
+weight,TYPE:_:_:bodyweight,indirect,CASTABLE,CASTABLE,Bidirectional,True,False,True,1104
+weight,TYPE:_:_:productweightg,indirect,CASTABLE,CASTABLE,Bidirectional,False,False,True,1105
+weight,TYPE:_:_:weightpercent,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1106
+weight,TYPE:_:_:identifier,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1107
+weight,TYPE:_:_:carweight,indirect,UNCASTABLE,CASTABLE,,False,False,True,1108
+weight,TYPE:_:_:cost,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1109
+weight,TYPE:_:_:caratweight,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1110
+weight,TYPE:_:_:playerweightkg,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1111
+weight,TYPE:_:_:playerweight,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1112
+weight,TYPE:_:_:mobileweight,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1113
+weight,TYPE:_:_:length,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1114
+weight,TYPE:_:_:population,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1115
+weight,TYPE:_:_:bmi,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1116
+weight,TYPE:_:_:unnamed,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1117
+weight,TYPE:_:_:density,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1118
+weight,TYPE:_:_:price,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1119
+deaths,TYPE:_:_:numberofpeople,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1120
+deaths,TYPE:_:_:suicidecount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1121
+deaths,TYPE:_:_:numberofvictims,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1122
+deaths,TYPE:_:_:numberofdeaths,direct,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1123
+deaths,TYPE:_:_:deceasedcount,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1124
+deaths,TYPE:_:_:death,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1125
+deaths,TYPE:_:_:emigrants,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1126
+deaths,TYPE:_:_:totaldeaths,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1127
+deaths,TYPE:_:_:age,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1128
+deaths,TYPE:_:_:kills,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1129
+deaths,TYPE:_:_:mortalityrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1130
+deaths,TYPE:_:_:totalvaccinations,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1131
+deaths,TYPE:_:_:suicidescount,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1132
+deaths,TYPE:_:_:victims,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1133
+deaths,TYPE:_:_:deathcases,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1134
+deaths,TYPE:_:_:deathcount,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1135
+deaths,TYPE:_:_:deceasedcases,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1136
+deaths,TYPE:_:_:numdeaths,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1137
+deaths,TYPE:_:_:deathrate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1138
+deaths,TYPE:_:_:covidstatus,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1139
+deaths,TYPE:_:_:numberofpeople,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1140
+deaths,TYPE:_:_:suicidecount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1141
+deaths,TYPE:_:_:numberofvictims,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1142
+deaths,TYPE:_:_:numberofdeaths,indirect,CASTABLE,UNCASTABLE,Bidirectional,False,False,False,1143
+deaths,TYPE:_:_:deceasedcount,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1144
+deaths,TYPE:_:_:death,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1145
+deaths,TYPE:_:_:emigrants,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1146
+deaths,TYPE:_:_:totaldeaths,indirect,UNCASTABLE,CASTABLE,,False,False,False,1147
+deaths,TYPE:_:_:age,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1148
+deaths,TYPE:_:_:kills,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1149
+deaths,TYPE:_:_:mortalityrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1150
+deaths,TYPE:_:_:totalvaccinations,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1151
+deaths,TYPE:_:_:suicidescount,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1152
+deaths,TYPE:_:_:victims,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1153
+deaths,TYPE:_:_:deathcases,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1154
+deaths,TYPE:_:_:deathcount,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1155
+deaths,TYPE:_:_:deceasedcases,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1156
+deaths,TYPE:_:_:numdeaths,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1157
+deaths,TYPE:_:_:deathrate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1158
+deaths,TYPE:_:_:covidstatus,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1159
+volume,TYPE:_:_:tradedvalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1160
+volume,TYPE:_:_:stockvolume,direct,UNCASTABLE,CASTABLE,,False,False,False,1161
+volume,TYPE:_:_:amount,direct,UNCASTABLE,CASTABLE,,False,False,False,1162
+volume,TYPE:_:_:volumestock,direct,UNCASTABLE,CASTABLE,,True,True,True,1163
+volume,TYPE:_:_:volumenumber,direct,UNCASTABLE,CASTABLE,,False,False,False,1164
+volume,TYPE:_:_:marketvolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1165
+volume,TYPE:_:_:volumecurrency,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1166
+volume,TYPE:_:_:stockdeliverablevolume,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1167
+volume,TYPE:_:_:sell,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1168
+volume,TYPE:_:_:volumetraded,direct,UNCASTABLE,CASTABLE,,False,False,False,1169
+volume,TYPE:_:_:volumecount,direct,UNCASTABLE,CASTABLE,,False,False,False,1170
+volume,TYPE:_:_:tradevalue,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1171
+volume,TYPE:_:_:tradedvolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1172
+volume,TYPE:_:_:tradevolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1173
+volume,TYPE:_:_:tradingvolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1174
+volume,TYPE:_:_:sales,direct,UNCASTABLE,CASTABLE,,False,False,False,1175
+volume,TYPE:_:_:deliverablevolume,direct,UNCASTABLE,CASTABLE,,False,False,False,1176
+volume,TYPE:_:_:cryptocurrencyvolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1177
+volume,TYPE:_:_:volumeusd,direct,UNCASTABLE,CASTABLE,,True,True,True,1178
+volume,TYPE:_:_:btctradevolume,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1179
+volume,TYPE:_:_:tradedvalue,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1180
+volume,TYPE:_:_:stockvolume,indirect,UNCASTABLE,CASTABLE,,False,False,False,1181
+volume,TYPE:_:_:amount,indirect,UNCASTABLE,CASTABLE,,False,False,False,1182
+volume,TYPE:_:_:volumestock,indirect,UNCASTABLE,CASTABLE,,True,True,True,1183
+volume,TYPE:_:_:volumenumber,indirect,UNCASTABLE,CASTABLE,,False,False,False,1184
+volume,TYPE:_:_:marketvolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1185
+volume,TYPE:_:_:volumecurrency,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1186
+volume,TYPE:_:_:stockdeliverablevolume,indirect,UNCASTABLE,CASTABLE,,False,False,False,1187
+volume,TYPE:_:_:sell,indirect,UNCASTABLE,CASTABLE,,False,False,False,1188
+volume,TYPE:_:_:volumetraded,indirect,UNCASTABLE,CASTABLE,,False,False,False,1189
+volume,TYPE:_:_:volumecount,indirect,UNCASTABLE,CASTABLE,,False,False,False,1190
+volume,TYPE:_:_:tradevalue,indirect,UNCASTABLE,CASTABLE,,False,False,False,1191
+volume,TYPE:_:_:tradedvolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1192
+volume,TYPE:_:_:tradevolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1193
+volume,TYPE:_:_:tradingvolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1194
+volume,TYPE:_:_:sales,indirect,UNCASTABLE,CASTABLE,,False,False,False,1195
+volume,TYPE:_:_:deliverablevolume,indirect,UNCASTABLE,CASTABLE,,False,False,False,1196
+volume,TYPE:_:_:cryptocurrencyvolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1197
+volume,TYPE:_:_:volumeusd,indirect,UNCASTABLE,CASTABLE,,True,True,True,1198
+volume,TYPE:_:_:btctradevolume,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1199
+provincestate,TYPE:_:_:usstate,direct,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1200
+provincestate,TYPE:_:_:stateorut,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1201
+provincestate,TYPE:_:_:nationalityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1202
+provincestate,TYPE:_:_:citystate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1203
+provincestate,TYPE:_:_:stateus,direct,UNCASTABLE,CASTABLE,,False,False,False,1204
+provincestate,TYPE:_:_:provincename,direct,UNCASTABLE,CASTABLE,,True,True,True,1205
+provincestate,TYPE:_:_:indianregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1206
+provincestate,TYPE:_:_:region,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1207
+provincestate,TYPE:_:_:usstatename,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1208
+provincestate,TYPE:_:_:stateprovince,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1209
+provincestate,TYPE:_:_:countryregion,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1210
+provincestate,TYPE:_:_:stateunionterritory,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1211
+provincestate,TYPE:_:_:province,direct,UNCASTABLE,CASTABLE,Uni Dst->Src,False,True,True,1212
+provincestate,TYPE:_:_:cityname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1213
+provincestate,TYPE:_:_:regionalindicator,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1214
+provincestate,TYPE:_:_:provincecolumn,direct,UNCASTABLE,CASTABLE,,False,False,False,1215
+provincestate,TYPE:_:_:state,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1216
+provincestate,TYPE:_:_:indianstate,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1217
+provincestate,TYPE:_:_:regionname,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1218
+provincestate,TYPE:_:_:stateabbreviation,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1219
+provincestate,TYPE:_:_:usstate,indirect,CASTABLE,CASTABLE,Uni Src->Dst,True,True,True,1220
+provincestate,TYPE:_:_:stateorut,indirect,UNCASTABLE,CASTABLE,,False,False,False,1221
+provincestate,TYPE:_:_:nationalityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1222
+provincestate,TYPE:_:_:citystate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1223
+provincestate,TYPE:_:_:stateus,indirect,UNCASTABLE,CASTABLE,,False,False,False,1224
+provincestate,TYPE:_:_:provincename,indirect,UNCASTABLE,CASTABLE,,True,True,True,1225
+provincestate,TYPE:_:_:indianregion,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1226
+provincestate,TYPE:_:_:region,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1227
+provincestate,TYPE:_:_:usstatename,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1228
+provincestate,TYPE:_:_:stateprovince,indirect,UNCASTABLE,CASTABLE,,False,False,False,1229
+provincestate,TYPE:_:_:countryregion,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1230
+provincestate,TYPE:_:_:stateunionterritory,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1231
+provincestate,TYPE:_:_:province,indirect,UNCASTABLE,CASTABLE,Uni Dst->Src,False,True,True,1232
+provincestate,TYPE:_:_:cityname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1233
+provincestate,TYPE:_:_:regionalindicator,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1234
+provincestate,TYPE:_:_:provincecolumn,indirect,UNCASTABLE,CASTABLE,,False,False,False,1235
+provincestate,TYPE:_:_:state,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,True,1236
+provincestate,TYPE:_:_:indianstate,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1237
+provincestate,TYPE:_:_:regionname,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1238
+provincestate,TYPE:_:_:stateabbreviation,indirect,UNCASTABLE,CASTABLE,,False,False,False,1239
+ranking,TYPE:_:_:userrating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1240
+ranking,TYPE:_:_:domainrank,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1241
+ranking,TYPE:_:_:ordinal,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1242
+ranking,TYPE:_:_:movierank,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1243
+ranking,TYPE:_:_:scoringcount,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1244
+ranking,TYPE:_:_:qualityscore,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1245
+ranking,TYPE:_:_:movierating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1246
+ranking,TYPE:_:_:identifier,direct,UNCASTABLE,CASTABLE,,False,False,False,1247
+ranking,TYPE:_:_:reviewrating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1248
+ranking,TYPE:_:_:rank,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1249
+ranking,TYPE:_:_:ordinalnumeric,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1250
+ranking,TYPE:_:_:happinessrank,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1251
+ranking,TYPE:_:_:quality,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1252
+ranking,TYPE:_:_:rankidentifier,direct,CASTABLE,CASTABLE,Bidirectional,True,True,True,1253
+ranking,TYPE:_:_:playeroverall,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1254
+ranking,TYPE:_:_:position,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1255
+ranking,TYPE:_:_:tableposition,direct,CASTABLE,CASTABLE,Bidirectional,False,True,True,1256
+ranking,TYPE:_:_:playerrating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1257
+ranking,TYPE:_:_:rating,direct,UNCASTABLE,UNCASTABLE,,False,False,False,1258
+ranking,TYPE:_:_:worlduniversityrank,direct,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,1259
+ranking,TYPE:_:_:userrating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1260
+ranking,TYPE:_:_:domainrank,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1261
+ranking,TYPE:_:_:ordinal,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1262
+ranking,TYPE:_:_:movierank,indirect,UNCASTABLE,CASTABLE,,False,False,False,1263
+ranking,TYPE:_:_:scoringcount,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1264
+ranking,TYPE:_:_:qualityscore,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1265
+ranking,TYPE:_:_:movierating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1266
+ranking,TYPE:_:_:identifier,indirect,UNCASTABLE,CASTABLE,,False,False,False,1267
+ranking,TYPE:_:_:reviewrating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1268
+ranking,TYPE:_:_:rank,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1269
+ranking,TYPE:_:_:ordinalnumeric,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1270
+ranking,TYPE:_:_:happinessrank,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1271
+ranking,TYPE:_:_:quality,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1272
+ranking,TYPE:_:_:rankidentifier,indirect,CASTABLE,CASTABLE,Bidirectional,True,True,True,1273
+ranking,TYPE:_:_:playeroverall,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1274
+ranking,TYPE:_:_:position,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1275
+ranking,TYPE:_:_:tableposition,indirect,CASTABLE,CASTABLE,Bidirectional,False,True,True,1276
+ranking,TYPE:_:_:playerrating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1277
+ranking,TYPE:_:_:rating,indirect,UNCASTABLE,UNCASTABLE,,False,False,False,1278
+ranking,TYPE:_:_:worlduniversityrank,indirect,CASTABLE,CASTABLE,Uni Src->Dst,False,True,False,1279
