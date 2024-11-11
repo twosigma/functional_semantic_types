@@ -5,11 +5,11 @@ Contains Codebase for generating FSTO Graphs for Kaggle and Harvard Data Univers
 ## Installation
 Install requirements from `requirements.txt`
 
-Install [gsutil](https://cloud.google.com/storage/docs/gsutil_install)
+Install [gcloud storage]([https://cloud.google.com/storage/docs/gsutil_install](https://cloud.google.com/sdk/docs/install))
 
 ## Table Download
 ```
-gsutil -m cp gs://fstogendata-ext/approved/REQSEC-61982/2024-08-16-labs-fst-datasets-2.tar _temp.tar
+gcloud storage cp gs://fstogendata-ext/approved/REQSEC-61982/2024-08-16-labs-fst-datasets-2.tar _temp.tar --billing-project [YOUR GCP PROJECT for billing]
 tar -xvzf _temp.tar
 cp -r fstogendata/kaggle/ assets/kaggle/
 cp -r fstogendata/harvard/ assets/harvard/
